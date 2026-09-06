@@ -1,0 +1,399 @@
+{
+  "page_idx": 1,
+  "width": 2200,
+  "height": 1700,
+  "boxes": [
+    {
+      "ymin": 100.0,
+      "xmin": 1803.0,
+      "ymax": 123.0,
+      "xmax": 1911.0,
+      "text": "Aug 27, 2026",
+      "conf": 0.758
+    },
+    {
+      "ymin": 111.0,
+      "xmin": 694.0,
+      "ymax": 131.0,
+      "xmax": 860.0,
+      "text": "University Of Mumbai",
+      "conf": 0.8858
+    },
+    {
+      "ymin": 121.0,
+      "xmin": 1741.0,
+      "ymax": 141.0,
+      "xmax": 1975.0,
+      "text": "Declaration Date:Aug27,2026",
+      "conf": 0.8884
+    },
+    {
+      "ymin": 147.0,
+      "xmin": 481.0,
+      "ymax": 167.0,
+      "xmax": 1723.0,
+      "text": "OFFICE REGISTER FOR THE Bachelor of Engineering(Artificial Intelligence and Data science)(Semester-IV)(NEP 2020) REGULAR EXAMINATION HELD IN MAY 2026",
+      "conf": 0.9112
+    },
+    {
+      "ymin": 171.0,
+      "xmin": 1822.0,
+      "ymax": 191.0,
+      "xmax": 1892.0,
+      "text": "PAGE : 2",
+      "conf": 0.7934
+    },
+    {
+      "ymin": 198.0,
+      "xmin": 1822.0,
+      "ymax": 220.0,
+      "xmax": 1892.0,
+      "text": "PAGE : 2",
+      "conf": 0.8153
+    },
+    {
+      "ymin": 264.0,
+      "xmin": 72.0,
+      "ymax": 285.0,
+      "xmax": 144.0,
+      "text": "2344212",
+      "conf": 0.8024
+    },
+    {
+      "ymin": 263.0,
+      "xmin": 196.0,
+      "ymax": 285.0,
+      "xmax": 371.0,
+      "text": "Web Technologies Lab",
+      "conf": 0.9173
+    },
+    {
+      "ymin": 264.0,
+      "xmin": 691.0,
+      "ymax": 286.0,
+      "xmax": 733.0,
+      "text": "1.00",
+      "conf": 0.7997
+    },
+    {
+      "ymin": 264.0,
+      "xmin": 1455.0,
+      "ymax": 285.0,
+      "xmax": 1505.0,
+      "text": "10.00",
+      "conf": 0.7032
+    },
+    {
+      "ymin": 264.0,
+      "xmin": 1579.0,
+      "ymax": 285.0,
+      "xmax": 1628.0,
+      "text": "25.00",
+      "conf": 0.6717
+    },
+    {
+      "ymin": 264.0,
+      "xmin": 1703.0,
+      "ymax": 285.0,
+      "xmax": 1753.0,
+      "text": "10.00",
+      "conf": 0.7433
+    },
+    {
+      "ymin": 264.0,
+      "xmin": 1827.0,
+      "ymax": 285.0,
+      "xmax": 1876.0,
+      "text": "25.00",
+      "conf": 0.6758
+    },
+    {
+      "ymin": 264.0,
+      "xmin": 1955.0,
+      "ymax": 286.0,
+      "xmax": 2005.0,
+      "text": "20.00",
+      "conf": 0.7698
+    },
+    {
+      "ymin": 264.0,
+      "xmin": 2088.0,
+      "ymax": 285.0,
+      "xmax": 2137.0,
+      "text": "50.00",
+      "conf": 0.7691
+    },
+    {
+      "ymin": 294.0,
+      "xmin": 73.0,
+      "ymax": 315.0,
+      "xmax": 144.0,
+      "text": "2994511",
+      "conf": 0.8298
+    },
+    {
+      "ymin": 293.0,
+      "xmin": 692.0,
+      "ymax": 316.0,
+      "xmax": 733.0,
+      "text": "2.00",
+      "conf": 0.5331
+    },
+    {
+      "ymin": 294.0,
+      "xmin": 1455.0,
+      "ymax": 316.0,
+      "xmax": 1505.0,
+      "text": "20.00",
+      "conf": 0.8011
+    },
+    {
+      "ymin": 294.0,
+      "xmin": 1578.0,
+      "ymax": 315.0,
+      "xmax": 1628.0,
+      "text": "50.00",
+      "conf": 0.7513
+    },
+    {
+      "ymin": 294.0,
+      "xmin": 1955.0,
+      "ymax": 316.0,
+      "xmax": 2005.0,
+      "text": "20.00",
+      "conf": 0.7706
+    },
+    {
+      "ymin": 296.0,
+      "xmin": 198.0,
+      "ymax": 313.0,
+      "xmax": 422.0,
+      "text": "Business Model Development",
+      "conf": 0.8844
+    },
+    {
+      "ymin": 294.0,
+      "xmin": 2088.0,
+      "ymax": 315.0,
+      "xmax": 2137.0,
+      "text": "50.00",
+      "conf": 0.7695
+    },
+    {
+      "ymin": 321.0,
+      "xmin": 195.0,
+      "ymax": 346.0,
+      "xmax": 323.0,
+      "text": "Design Thinking",
+      "conf": 0.8643
+    },
+    {
+      "ymin": 321.0,
+      "xmin": 1455.0,
+      "ymax": 346.0,
+      "xmax": 1506.0,
+      "text": "20.00",
+      "conf": 0.7826
+    },
+    {
+      "ymin": 321.0,
+      "xmin": 1578.0,
+      "ymax": 346.0,
+      "xmax": 1629.0,
+      "text": "50.00",
+      "conf": 0.7709
+    },
+    {
+      "ymin": 321.0,
+      "xmin": 1954.0,
+      "ymax": 346.0,
+      "xmax": 2006.0,
+      "text": "20.00",
+      "conf": 0.7412
+    },
+    {
+      "ymin": 322.0,
+      "xmin": 692.0,
+      "ymax": 345.0,
+      "xmax": 733.0,
+      "text": "2.00",
+      "conf": 0.5835
+    },
+    {
+      "ymin": 323.0,
+      "xmin": 72.0,
+      "ymax": 344.0,
+      "xmax": 144.0,
+      "text": "2994512",
+      "conf": 0.7952
+    },
+    {
+      "ymin": 321.0,
+      "xmin": 2087.0,
+      "ymax": 346.0,
+      "xmax": 2139.0,
+      "text": "50.00",
+      "conf": 0.7311
+    },
+    {
+      "ymin": 1438.0,
+      "xmin": 28.0,
+      "ymax": 1455.0,
+      "xmax": 266.0,
+      "text": "#:0.229;@:0.5042A/0.5043A/C",
+      "conf": 0.903
+    },
+    {
+      "ymin": 1437.0,
+      "xmin": 1964.0,
+      "ymax": 1453.0,
+      "xmax": 2096.0,
+      "text": "ADC: ADMISSION",
+      "conf": 0.8912
+    },
+    {
+      "ymin": 1455.0,
+      "xmin": 693.0,
+      "ymax": 1474.0,
+      "xmax": 1221.0,
+      "text": "C; aCG: SUM OF CxG; SGPI: SEMESTER GRADE PERFORMANCE INDEX",
+      "conf": 0.9088
+    },
+    {
+      "ymin": 1455.0,
+      "xmin": 1225.0,
+      "ymax": 1477.0,
+      "xmax": 1431.0,
+      "text": ":aCG /aC; RR:RESERVED;",
+      "conf": 0.8733
+    },
+    {
+      "ymin": 1492.0,
+      "xmin": 25.0,
+      "ymax": 1512.0,
+      "xmax": 280.0,
+      "text": "（NEP 2020)EXAMINATION HELD",
+      "conf": 0.8889
+    },
+    {
+      "ymin": 1491.0,
+      "xmin": 293.0,
+      "ymax": 1511.0,
+      "xmax": 380.0,
+      "text": "JMAY2026",
+      "conf": 0.8441
+    },
+    {
+      "ymin": 1520.0,
+      "xmin": 20.0,
+      "ymax": 1545.0,
+      "xmax": 86.0,
+      "text": "%Marks",
+      "conf": 0.797
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 412.0,
+      "ymax": 1545.0,
+      "xmax": 462.0,
+      "text": ">=90",
+      "conf": 0.7987
+    },
+    {
+      "ymin": 1520.0,
+      "xmin": 1492.0,
+      "ymax": 1546.0,
+      "xmax": 1610.0,
+      "text": ">=50 and <55",
+      "conf": 0.8489
+    },
+    {
+      "ymin": 1521.0,
+      "xmin": 593.0,
+      "ymax": 1545.0,
+      "xmax": 713.0,
+      "text": ">=80 and <90",
+      "conf": 0.8442
+    },
+    {
+      "ymin": 1524.0,
+      "xmin": 820.0,
+      "ymax": 1544.0,
+      "xmax": 937.0,
+      "text": ">=70 and <80",
+      "conf": 0.785
+    },
+    {
+      "ymin": 1524.0,
+      "xmin": 1044.0,
+      "ymax": 1544.0,
+      "xmax": 1163.0,
+      "text": ">=60 and <70",
+      "conf": 0.8397
+    },
+    {
+      "ymin": 1524.0,
+      "xmin": 1269.0,
+      "ymax": 1544.0,
+      "xmax": 1388.0,
+      "text": ">=55 and <60",
+      "conf": 0.8436
+    },
+    {
+      "ymin": 1521.0,
+      "xmin": 1716.0,
+      "ymax": 1545.0,
+      "xmax": 1834.0,
+      "text": ">=40 and <50",
+      "conf": 0.8902
+    },
+    {
+      "ymin": 1522.0,
+      "xmin": 1953.0,
+      "ymax": 1545.0,
+      "xmax": 1996.0,
+      "text": "< 40",
+      "conf": 0.7685
+    },
+    {
+      "ymin": 1550.0,
+      "xmin": 637.0,
+      "ymax": 1574.0,
+      "xmax": 667.0,
+      "text": "A+",
+      "conf": 0.6619
+    },
+    {
+      "ymin": 1551.0,
+      "xmin": 22.0,
+      "ymax": 1573.0,
+      "xmax": 73.0,
+      "text": "Grade",
+      "conf": 0.8327
+    },
+    {
+      "ymin": 1552.0,
+      "xmin": 1088.0,
+      "ymax": 1572.0,
+      "xmax": 1117.0,
+      "text": "B+",
+      "conf": 0.6389
+    },
+    {
+      "ymin": 1579.0,
+      "xmin": 423.0,
+      "ymax": 1601.0,
+      "xmax": 449.0,
+      "text": "10",
+      "conf": 0.6549
+    },
+    {
+      "ymin": 1580.0,
+      "xmin": 23.0,
+      "ymax": 1600.0,
+      "xmax": 131.0,
+      "text": "GRADE POINT",
+      "conf": 0.8479
+    }
+  ]
+}

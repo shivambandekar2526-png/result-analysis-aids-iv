@@ -1,0 +1,2383 @@
+{
+  "page_idx": 12,
+  "width": 2200,
+  "height": 1700,
+  "boxes": [
+    {
+      "ymin": 101.0,
+      "xmin": 1804.0,
+      "ymax": 121.0,
+      "xmax": 1910.0,
+      "text": "Aug 27, 2026",
+      "conf": 0.869
+    },
+    {
+      "ymin": 111.0,
+      "xmin": 694.0,
+      "ymax": 131.0,
+      "xmax": 860.0,
+      "text": "University Of Mumbai",
+      "conf": 0.8962
+    },
+    {
+      "ymin": 121.0,
+      "xmin": 1740.0,
+      "ymax": 141.0,
+      "xmax": 1975.0,
+      "text": "Declaration Date:Aug 27,2026",
+      "conf": 0.8897
+    },
+    {
+      "ymin": 147.0,
+      "xmin": 480.0,
+      "ymax": 166.0,
+      "xmax": 1723.0,
+      "text": "OFFICE REGISTER FOR THE Bachelor of Engineering(Artificial Intelligence and Data cience)(Semester-IV)（NEP 2020)REGULAR EXAMINATION HELDIN MAY 2026",
+      "conf": 0.9029
+    },
+    {
+      "ymin": 170.0,
+      "xmin": 1816.0,
+      "ymax": 194.0,
+      "xmax": 1897.0,
+      "text": "PAGE :13",
+      "conf": 0.752
+    },
+    {
+      "ymin": 199.0,
+      "xmin": 1817.0,
+      "ymax": 217.0,
+      "xmax": 1896.0,
+      "text": "PAGE : 13",
+      "conf": 0.7919
+    },
+    {
+      "ymin": 260.0,
+      "xmin": 54.0,
+      "ymax": 280.0,
+      "xmax": 120.0,
+      "text": "SEAT NO",
+      "conf": 0.8029
+    },
+    {
+      "ymin": 259.0,
+      "xmin": 229.0,
+      "ymax": 280.0,
+      "xmax": 276.0,
+      "text": "NAME",
+      "conf": 0.7983
+    },
+    {
+      "ymin": 257.0,
+      "xmin": 671.0,
+      "ymax": 280.0,
+      "xmax": 736.0,
+      "text": "GENDER",
+      "conf": 0.7463
+    },
+    {
+      "ymin": 261.0,
+      "xmin": 572.0,
+      "ymax": 279.0,
+      "xmax": 630.0,
+      "text": "STATUS",
+      "conf": 0.8467
+    },
+    {
+      "ymin": 261.0,
+      "xmin": 747.0,
+      "ymax": 279.0,
+      "xmax": 781.0,
+      "text": "ERN",
+      "conf": 0.7476
+    },
+    {
+      "ymin": 260.0,
+      "xmin": 924.0,
+      "ymax": 280.0,
+      "xmax": 994.0,
+      "text": "COLLEGE",
+      "conf": 0.8296
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 54.0,
+      "ymax": 303.0,
+      "xmax": 120.0,
+      "text": "1313311",
+      "conf": 0.8259
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 229.0,
+      "ymax": 303.0,
+      "xmax": 296.0,
+      "text": "2014411",
+      "conf": 0.8498
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 406.0,
+      "ymax": 303.0,
+      "xmax": 471.0,
+      "text": "2114111",
+      "conf": 0.814
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 572.0,
+      "ymax": 303.0,
+      "xmax": 638.0,
+      "text": "2114112",
+      "conf": 0.8413
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 747.0,
+      "ymax": 303.0,
+      "xmax": 814.0,
+      "text": "2114113",
+      "conf": 0.8021
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 924.0,
+      "ymax": 303.0,
+      "xmax": 991.0,
+      "text": "2114114",
+      "conf": 0.8137
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 1097.0,
+      "ymax": 303.0,
+      "xmax": 1163.0,
+      "text": "2114115",
+      "conf": 0.8371
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 1259.0,
+      "ymax": 303.0,
+      "xmax": 1324.0,
+      "text": "2304211",
+      "conf": 0.7847
+    },
+    {
+      "ymin": 280.0,
+      "xmin": 1434.0,
+      "ymax": 304.0,
+      "xmax": 1502.0,
+      "text": "2304212",
+      "conf": 0.8743
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 1597.0,
+      "ymax": 303.0,
+      "xmax": 1664.0,
+      "text": "2994511",
+      "conf": 0.7975
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 1764.0,
+      "ymax": 303.0,
+      "xmax": 1829.0,
+      "text": "2994512",
+      "conf": 0.8402
+    },
+    {
+      "ymin": 281.0,
+      "xmin": 1928.0,
+      "ymax": 302.0,
+      "xmax": 1973.0,
+      "text": "TOTAL",
+      "conf": 0.8181
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 2056.0,
+      "ymax": 300.0,
+      "xmax": 2105.0,
+      "text": "RESULT",
+      "conf": 0.7392
+    },
+    {
+      "ymin": 283.0,
+      "xmin": 2117.0,
+      "ymax": 300.0,
+      "xmax": 2167.0,
+      "text": "REMARK",
+      "conf": 0.8565
+    },
+    {
+      "ymin": 301.0,
+      "xmin": 227.0,
+      "ymax": 323.0,
+      "xmax": 363.0,
+      "text": "Mini Project (TERM",
+      "conf": 0.933
+    },
+    {
+      "ymin": 301.0,
+      "xmin": 924.0,
+      "ymax": 322.0,
+      "xmax": 1102.0,
+      "text": "Database Management",
+      "conf": 0.8378
+    },
+    {
+      "ymin": 302.0,
+      "xmin": 54.0,
+      "ymax": 322.0,
+      "xmax": 223.0,
+      "text": "Administrative Policy of",
+      "conf": 0.878
+    },
+    {
+      "ymin": 302.0,
+      "xmin": 407.0,
+      "ymax": 322.0,
+      "xmax": 566.0,
+      "text": "Computational Theory",
+      "conf": 0.909
+    },
+    {
+      "ymin": 302.0,
+      "xmin": 571.0,
+      "ymax": 322.0,
+      "xmax": 741.0,
+      "text": "Database Management",
+      "conf": 0.9104
+    },
+    {
+      "ymin": 302.0,
+      "xmin": 747.0,
+      "ymax": 322.0,
+      "xmax": 877.0,
+      "text": "Operating System",
+      "conf": 0.8212
+    },
+    {
+      "ymin": 302.0,
+      "xmin": 1096.0,
+      "ymax": 322.0,
+      "xmax": 1380.0,
+      "text": "Operating System Lab Fundamentals of",
+      "conf": 0.8964
+    },
+    {
+      "ymin": 302.0,
+      "xmin": 1597.0,
+      "ymax": 322.0,
+      "xmax": 1709.0,
+      "text": "Business Model",
+      "conf": 0.8693
+    },
+    {
+      "ymin": 303.0,
+      "xmin": 1436.0,
+      "ymax": 321.0,
+      "xmax": 1478.0,
+      "text": "Basic",
+      "conf": 0.8238
+    },
+    {
+      "ymin": 293.0,
+      "xmin": 1760.0,
+      "ymax": 327.0,
+      "xmax": 1969.0,
+      "text": "Design Thinking (TERM (775)",
+      "conf": 0.91
+    },
+    {
+      "ymin": 313.0,
+      "xmin": 2064.0,
+      "ymax": 332.0,
+      "xmax": 2095.0,
+      "text": "aCG",
+      "conf": 0.5615
+    },
+    {
+      "ymin": 309.0,
+      "xmin": 2139.0,
+      "ymax": 328.0,
+      "xmax": 2168.0,
+      "text": "#CG",
+      "conf": 0.5533
+    },
+    {
+      "ymin": 320.0,
+      "xmin": 230.0,
+      "ymax": 340.0,
+      "xmax": 358.0,
+      "text": "WORK AND ORAL)",
+      "conf": 0.8586
+    },
+    {
+      "ymin": 320.0,
+      "xmin": 406.0,
+      "ymax": 341.0,
+      "xmax": 478.0,
+      "text": "(THEORY)",
+      "conf": 0.8474
+    },
+    {
+      "ymin": 320.0,
+      "xmin": 748.0,
+      "ymax": 340.0,
+      "xmax": 820.0,
+      "text": "(THEORY)",
+      "conf": 0.8661
+    },
+    {
+      "ymin": 320.0,
+      "xmin": 1098.0,
+      "ymax": 340.0,
+      "xmax": 1228.0,
+      "text": "(TERM WORK AND",
+      "conf": 0.9221
+    },
+    {
+      "ymin": 320.0,
+      "xmin": 1597.0,
+      "ymax": 340.0,
+      "xmax": 1743.0,
+      "text": "Development (TERM",
+      "conf": 0.8721
+    },
+    {
+      "ymin": 319.0,
+      "xmin": 924.0,
+      "ymax": 341.0,
+      "xmax": 1057.0,
+      "text": "System Lab (TERM",
+      "conf": 0.8896
+    },
+    {
+      "ymin": 322.0,
+      "xmin": 56.0,
+      "ymax": 339.0,
+      "xmax": 189.0,
+      "text": "Chhatrapati Shivaji",
+      "conf": 0.906
+    },
+    {
+      "ymin": 322.0,
+      "xmin": 574.0,
+      "ymax": 339.0,
+      "xmax": 697.0,
+      "text": "System (THEORY)",
+      "conf": 0.9149
+    },
+    {
+      "ymin": 322.0,
+      "xmin": 1259.0,
+      "ymax": 339.0,
+      "xmax": 1398.0,
+      "text": "Telecommunication",
+      "conf": 0.8701
+    },
+    {
+      "ymin": 322.0,
+      "xmin": 1437.0,
+      "ymax": 339.0,
+      "xmax": 1574.0,
+      "text": "Telecommunication",
+      "conf": 0.8844
+    },
+    {
+      "ymin": 320.0,
+      "xmin": 1763.0,
+      "ymax": 341.0,
+      "xmax": 1817.0,
+      "text": "WORK)",
+      "conf": 0.751
+    },
+    {
+      "ymin": 337.0,
+      "xmin": 53.0,
+      "ymax": 359.0,
+      "xmax": 197.0,
+      "text": "Maharaja (THEORY)",
+      "conf": 0.8802
+    },
+    {
+      "ymin": 338.0,
+      "xmin": 926.0,
+      "ymax": 355.0,
+      "xmax": 1052.0,
+      "text": "WORK AND ORAL)",
+      "conf": 0.8852
+    },
+    {
+      "ymin": 338.0,
+      "xmin": 1097.0,
+      "ymax": 359.0,
+      "xmax": 1146.0,
+      "text": "ORAL)",
+      "conf": 0.7926
+    },
+    {
+      "ymin": 339.0,
+      "xmin": 1259.0,
+      "ymax": 359.0,
+      "xmax": 1393.0,
+      "text": "Systems (THEORY)",
+      "conf": 0.8933
+    },
+    {
+      "ymin": 340.0,
+      "xmin": 1436.0,
+      "ymax": 357.0,
+      "xmax": 1573.0,
+      "text": "Experiments (TERM",
+      "conf": 0.8795
+    },
+    {
+      "ymin": 338.0,
+      "xmin": 1596.0,
+      "ymax": 359.0,
+      "xmax": 1651.0,
+      "text": "WORK)",
+      "conf": 0.7819
+    },
+    {
+      "ymin": 358.0,
+      "xmin": 1437.0,
+      "ymax": 375.0,
+      "xmax": 1563.0,
+      "text": "WORK AND ORAL)",
+      "conf": 0.8847
+    },
+    {
+      "ymin": 381.0,
+      "xmin": 231.0,
+      "ymax": 398.0,
+      "xmax": 373.0,
+      "text": "TERM WORK (50/20)",
+      "conf": 0.8658
+    },
+    {
+      "ymin": 381.0,
+      "xmin": 926.0,
+      "ymax": 398.0,
+      "xmax": 1067.0,
+      "text": "TERMWORK (25/10)",
+      "conf": 0.8885
+    },
+    {
+      "ymin": 381.0,
+      "xmin": 1097.0,
+      "ymax": 398.0,
+      "xmax": 1239.0,
+      "text": "TERM WORK(25/10)",
+      "conf": 0.9039
+    },
+    {
+      "ymin": 381.0,
+      "xmin": 1436.0,
+      "ymax": 398.0,
+      "xmax": 1578.0,
+      "text": "TERM WORK (25/10)",
+      "conf": 0.8387
+    },
+    {
+      "ymin": 381.0,
+      "xmin": 1597.0,
+      "ymax": 398.0,
+      "xmax": 1741.0,
+      "text": "TERM WORK (50/20)",
+      "conf": 0.8644
+    },
+    {
+      "ymin": 381.0,
+      "xmin": 1765.0,
+      "ymax": 398.0,
+      "xmax": 1906.0,
+      "text": "TERM WORK (50/20)",
+      "conf": 0.8778
+    },
+    {
+      "ymin": 403.0,
+      "xmin": 230.0,
+      "ymax": 423.0,
+      "xmax": 326.0,
+      "text": "ORAL (25/10)",
+      "conf": 0.8288
+    },
+    {
+      "ymin": 403.0,
+      "xmin": 925.0,
+      "ymax": 423.0,
+      "xmax": 1021.0,
+      "text": "ORAL(25/10)",
+      "conf": 0.869
+    },
+    {
+      "ymin": 403.0,
+      "xmin": 1097.0,
+      "ymax": 423.0,
+      "xmax": 1194.0,
+      "text": "ORAL (25/10)",
+      "conf": 0.8196
+    },
+    {
+      "ymin": 403.0,
+      "xmin": 1435.0,
+      "ymax": 423.0,
+      "xmax": 1531.0,
+      "text": "ORAL (25/10)",
+      "conf": 0.859
+    },
+    {
+      "ymin": 426.0,
+      "xmin": 55.0,
+      "ymax": 446.0,
+      "xmax": 169.0,
+      "text": "External (30/12)",
+      "conf": 0.9224
+    },
+    {
+      "ymin": 426.0,
+      "xmin": 407.0,
+      "ymax": 446.0,
+      "xmax": 522.0,
+      "text": "External (60/24)",
+      "conf": 0.9289
+    },
+    {
+      "ymin": 425.0,
+      "xmin": 571.0,
+      "ymax": 447.0,
+      "xmax": 688.0,
+      "text": "External (60/24)",
+      "conf": 0.9162
+    },
+    {
+      "ymin": 426.0,
+      "xmin": 748.0,
+      "ymax": 446.0,
+      "xmax": 864.0,
+      "text": "External (60/24)",
+      "conf": 0.9107
+    },
+    {
+      "ymin": 426.0,
+      "xmin": 1259.0,
+      "ymax": 446.0,
+      "xmax": 1376.0,
+      "text": "External (60/24)",
+      "conf": 0.8554
+    },
+    {
+      "ymin": 450.0,
+      "xmin": 53.0,
+      "ymax": 470.0,
+      "xmax": 153.0,
+      "text": "Internal(20/8)",
+      "conf": 0.914
+    },
+    {
+      "ymin": 451.0,
+      "xmin": 406.0,
+      "ymax": 468.0,
+      "xmax": 513.0,
+      "text": "Internal(40/16)",
+      "conf": 0.9309
+    },
+    {
+      "ymin": 451.0,
+      "xmin": 572.0,
+      "ymax": 468.0,
+      "xmax": 680.0,
+      "text": "Internal(40/16)",
+      "conf": 0.8933
+    },
+    {
+      "ymin": 451.0,
+      "xmin": 748.0,
+      "ymax": 468.0,
+      "xmax": 855.0,
+      "text": "Internal(40/16)",
+      "conf": 0.8902
+    },
+    {
+      "ymin": 451.0,
+      "xmin": 1259.0,
+      "ymax": 468.0,
+      "xmax": 1367.0,
+      "text": "Internal(40/16)",
+      "conf": 0.927
+    },
+    {
+      "ymin": 472.0,
+      "xmin": 177.0,
+      "ymax": 492.0,
+      "xmax": 263.0,
+      "text": "C G*C TOT",
+      "conf": 0.7918
+    },
+    {
+      "ymin": 472.0,
+      "xmin": 482.0,
+      "ymax": 492.0,
+      "xmax": 604.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.8637
+    },
+    {
+      "ymin": 472.0,
+      "xmin": 648.0,
+      "ymax": 493.0,
+      "xmax": 689.0,
+      "text": "GP G",
+      "conf": 0.7902
+    },
+    {
+      "ymin": 472.0,
+      "xmin": 694.0,
+      "ymax": 492.0,
+      "xmax": 781.0,
+      "text": "C G*C TOT",
+      "conf": 0.8473
+    },
+    {
+      "ymin": 469.0,
+      "xmin": 821.0,
+      "ymax": 494.0,
+      "xmax": 959.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.8466
+    },
+    {
+      "ymin": 473.0,
+      "xmin": 53.0,
+      "ymax": 492.0,
+      "xmax": 88.0,
+      "text": "TOT",
+      "conf": 0.7485
+    },
+    {
+      "ymin": 473.0,
+      "xmin": 306.0,
+      "ymax": 491.0,
+      "xmax": 352.0,
+      "text": "GPG",
+      "conf": 0.748
+    },
+    {
+      "ymin": 473.0,
+      "xmin": 1000.0,
+      "ymax": 491.0,
+      "xmax": 1042.0,
+      "text": "GP G",
+      "conf": 0.7342
+    },
+    {
+      "ymin": 474.0,
+      "xmin": 131.0,
+      "ymax": 492.0,
+      "xmax": 171.0,
+      "text": "GP G",
+      "conf": 0.7894
+    },
+    {
+      "ymin": 474.0,
+      "xmin": 353.0,
+      "ymax": 491.0,
+      "xmax": 438.0,
+      "text": "C G*C TOT",
+      "conf": 0.8435
+    },
+    {
+      "ymin": 474.0,
+      "xmin": 1050.0,
+      "ymax": 491.0,
+      "xmax": 1129.0,
+      "text": "C G*C TOT",
+      "conf": 0.8653
+    },
+    {
+      "ymin": 474.0,
+      "xmin": 1174.0,
+      "ymax": 491.0,
+      "xmax": 1291.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.9012
+    },
+    {
+      "ymin": 474.0,
+      "xmin": 1336.0,
+      "ymax": 491.0,
+      "xmax": 1378.0,
+      "text": "GP G",
+      "conf": 0.7249
+    },
+    {
+      "ymin": 474.0,
+      "xmin": 1384.0,
+      "ymax": 491.0,
+      "xmax": 1468.0,
+      "text": "C G*C TOT",
+      "conf": 0.8421
+    },
+    {
+      "ymin": 474.0,
+      "xmin": 1512.0,
+      "ymax": 491.0,
+      "xmax": 1629.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.8665
+    },
+    {
+      "ymin": 474.0,
+      "xmin": 1675.0,
+      "ymax": 491.0,
+      "xmax": 1795.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.8583
+    },
+    {
+      "ymin": 472.0,
+      "xmin": 1839.0,
+      "ymax": 492.0,
+      "xmax": 1926.0,
+      "text": "GP G C G*C",
+      "conf": 0.8579
+    },
+    {
+      "ymin": 507.0,
+      "xmin": 747.0,
+      "ymax": 527.0,
+      "xmax": 923.0,
+      "text": "(MU0341120240205794)",
+      "conf": 0.9307
+    },
+    {
+      "ymin": 508.0,
+      "xmin": 54.0,
+      "ymax": 528.0,
+      "xmax": 137.0,
+      "text": "101410041",
+      "conf": 0.8377
+    },
+    {
+      "ymin": 508.0,
+      "xmin": 571.0,
+      "ymax": 529.0,
+      "xmax": 631.0,
+      "text": "Regular",
+      "conf": 0.8745
+    },
+    {
+      "ymin": 508.0,
+      "xmin": 670.0,
+      "ymax": 529.0,
+      "xmax": 715.0,
+      "text": "MALE",
+      "conf": 0.7987
+    },
+    {
+      "ymin": 510.0,
+      "xmin": 232.0,
+      "ymax": 527.0,
+      "xmax": 406.0,
+      "text": "GAIKWAD SOHAM YADAV",
+      "conf": 0.8149
+    },
+    {
+      "ymin": 518.0,
+      "xmin": 925.0,
+      "ymax": 538.0,
+      "xmax": 987.0,
+      "text": "MUMBAI",
+      "conf": 0.847
+    },
+    {
+      "ymin": 540.0,
+      "xmin": 229.0,
+      "ymax": 561.0,
+      "xmax": 254.0,
+      "text": "40",
+      "conf": 0.6661
+    },
+    {
+      "ymin": 540.0,
+      "xmin": 923.0,
+      "ymax": 562.0,
+      "xmax": 948.0,
+      "text": "23",
+      "conf": 0.551
+    },
+    {
+      "ymin": 540.0,
+      "xmin": 1096.0,
+      "ymax": 562.0,
+      "xmax": 1120.0,
+      "text": "20",
+      "conf": 0.6083
+    },
+    {
+      "ymin": 540.0,
+      "xmin": 1435.0,
+      "ymax": 561.0,
+      "xmax": 1459.0,
+      "text": "19",
+      "conf": 0.5857
+    },
+    {
+      "ymin": 540.0,
+      "xmin": 1596.0,
+      "ymax": 561.0,
+      "xmax": 1621.0,
+      "text": "39",
+      "conf": 0.6662
+    },
+    {
+      "ymin": 540.0,
+      "xmin": 1763.0,
+      "ymax": 561.0,
+      "xmax": 1788.0,
+      "text": "38",
+      "conf": 0.6516
+    },
+    {
+      "ymin": 563.0,
+      "xmin": 923.0,
+      "ymax": 584.0,
+      "xmax": 948.0,
+      "text": "17",
+      "conf": 0.6653
+    },
+    {
+      "ymin": 563.0,
+      "xmin": 1096.0,
+      "ymax": 584.0,
+      "xmax": 1120.0,
+      "text": "19",
+      "conf": 0.5163
+    },
+    {
+      "ymin": 563.0,
+      "xmin": 1434.0,
+      "ymax": 584.0,
+      "xmax": 1459.0,
+      "text": "19",
+      "conf": 0.6657
+    },
+    {
+      "ymin": 564.0,
+      "xmin": 21.0,
+      "ymax": 584.0,
+      "xmax": 46.0,
+      "text": "01",
+      "conf": 0.6662
+    },
+    {
+      "ymin": 564.0,
+      "xmin": 229.0,
+      "ymax": 584.0,
+      "xmax": 254.0,
+      "text": "20",
+      "conf": 0.5097
+    },
+    {
+      "ymin": 587.0,
+      "xmin": 20.0,
+      "ymax": 608.0,
+      "xmax": 77.0,
+      "text": "E1  25",
+      "conf": 0.6729
+    },
+    {
+      "ymin": 587.0,
+      "xmin": 405.0,
+      "ymax": 608.0,
+      "xmax": 430.0,
+      "text": "24",
+      "conf": 0.5664
+    },
+    {
+      "ymin": 587.0,
+      "xmin": 571.0,
+      "ymax": 608.0,
+      "xmax": 595.0,
+      "text": "41",
+      "conf": 0.5276
+    },
+    {
+      "ymin": 587.0,
+      "xmin": 746.0,
+      "ymax": 608.0,
+      "xmax": 771.0,
+      "text": "39",
+      "conf": 0.6656
+    },
+    {
+      "ymin": 587.0,
+      "xmin": 1258.0,
+      "ymax": 608.0,
+      "xmax": 1282.0,
+      "text": "41",
+      "conf": 0.6648
+    },
+    {
+      "ymin": 588.0,
+      "xmin": 1929.0,
+      "ymax": 606.0,
+      "xmax": 1978.0,
+      "text": "MARKS",
+      "conf": 0.8323
+    },
+    {
+      "ymin": 609.0,
+      "xmin": 18.0,
+      "ymax": 633.0,
+      "xmax": 79.0,
+      "text": "I117",
+      "conf": 0.6712
+    },
+    {
+      "ymin": 610.0,
+      "xmin": 405.0,
+      "ymax": 631.0,
+      "xmax": 429.0,
+      "text": "29",
+      "conf": 0.6011
+    },
+    {
+      "ymin": 610.0,
+      "xmin": 571.0,
+      "ymax": 631.0,
+      "xmax": 595.0,
+      "text": "23",
+      "conf": 0.6304
+    },
+    {
+      "ymin": 610.0,
+      "xmin": 746.0,
+      "ymax": 631.0,
+      "xmax": 771.0,
+      "text": "28",
+      "conf": 0.6658
+    },
+    {
+      "ymin": 610.0,
+      "xmin": 1258.0,
+      "ymax": 631.0,
+      "xmax": 1282.0,
+      "text": "28",
+      "conf": 0.5444
+    },
+    {
+      "ymin": 610.0,
+      "xmin": 1929.0,
+      "ymax": 632.0,
+      "xmax": 1972.0,
+      "text": "(549)",
+      "conf": 0.8298
+    },
+    {
+      "ymin": 611.0,
+      "xmin": 2128.0,
+      "ymax": 630.0,
+      "xmax": 2166.0,
+      "text": "PASS",
+      "conf": 0.7871
+    },
+    {
+      "ymin": 632.0,
+      "xmin": 670.0,
+      "ymax": 656.0,
+      "xmax": 771.0,
+      "text": "B+ 3 21.0 67",
+      "conf": 0.8525
+    },
+    {
+      "ymin": 633.0,
+      "xmin": 846.0,
+      "ymax": 654.0,
+      "xmax": 948.0,
+      "text": "B+ 3 21.0 40",
+      "conf": 0.8536
+    },
+    {
+      "ymin": 632.0,
+      "xmin": 1021.0,
+      "ymax": 656.0,
+      "xmax": 1121.0,
+      "text": "A+ 1 9.0 39",
+      "conf": 0.8257
+    },
+    {
+      "ymin": 633.0,
+      "xmin": 1193.0,
+      "ymax": 655.0,
+      "xmax": 1282.0,
+      "text": "A18.0 69",
+      "conf": 0.7959
+    },
+    {
+      "ymin": 634.0,
+      "xmin": 148.0,
+      "ymax": 655.0,
+      "xmax": 253.0,
+      "text": "A+218.060",
+      "conf": 0.8432
+    },
+    {
+      "ymin": 634.0,
+      "xmin": 315.0,
+      "ymax": 655.0,
+      "xmax": 429.0,
+      "text": "A+218.053",
+      "conf": 0.8064
+    },
+    {
+      "ymin": 634.0,
+      "xmin": 1357.0,
+      "ymax": 655.0,
+      "xmax": 1459.0,
+      "text": "B+ 3 21.0 38",
+      "conf": 0.8531
+    },
+    {
+      "ymin": 633.0,
+      "xmin": 1531.0,
+      "ymax": 655.0,
+      "xmax": 1621.0,
+      "text": "A18.0 39",
+      "conf": 0.7762
+    },
+    {
+      "ymin": 634.0,
+      "xmin": 1695.0,
+      "ymax": 655.0,
+      "xmax": 1787.0,
+      "text": "A 2 16.0 38",
+      "conf": 0.8416
+    },
+    {
+      "ymin": 634.0,
+      "xmin": 1857.0,
+      "ymax": 655.0,
+      "xmax": 1952.0,
+      "text": "A 2 16.0 23",
+      "conf": 0.8074
+    },
+    {
+      "ymin": 632.0,
+      "xmin": 502.0,
+      "ymax": 656.0,
+      "xmax": 595.0,
+      "text": "C 3 15.0 64",
+      "conf": 0.8308
+    },
+    {
+      "ymin": 632.0,
+      "xmin": 18.0,
+      "ymax": 657.0,
+      "xmax": 77.0,
+      "text": "TOT 42",
+      "conf": 0.8267
+    },
+    {
+      "ymin": 634.0,
+      "xmin": 2059.0,
+      "ymax": 655.0,
+      "xmax": 2167.0,
+      "text": "171.0 7.43478",
+      "conf": 0.9175
+    },
+    {
+      "ymin": 665.0,
+      "xmin": 570.0,
+      "ymax": 689.0,
+      "xmax": 635.0,
+      "text": "STATUS",
+      "conf": 0.7845
+    },
+    {
+      "ymin": 667.0,
+      "xmin": 54.0,
+      "ymax": 687.0,
+      "xmax": 120.0,
+      "text": "SEAT NO",
+      "conf": 0.7219
+    },
+    {
+      "ymin": 667.0,
+      "xmin": 228.0,
+      "ymax": 688.0,
+      "xmax": 276.0,
+      "text": "NAME",
+      "conf": 0.7981
+    },
+    {
+      "ymin": 667.0,
+      "xmin": 672.0,
+      "ymax": 687.0,
+      "xmax": 737.0,
+      "text": "GENDER",
+      "conf": 0.8162
+    },
+    {
+      "ymin": 667.0,
+      "xmin": 739.0,
+      "ymax": 688.0,
+      "xmax": 781.0,
+      "text": "ERN",
+      "conf": 0.7433
+    },
+    {
+      "ymin": 664.0,
+      "xmin": 923.0,
+      "ymax": 688.0,
+      "xmax": 994.0,
+      "text": "COLLEGE",
+      "conf": 0.85
+    },
+    {
+      "ymin": 687.0,
+      "xmin": 229.0,
+      "ymax": 711.0,
+      "xmax": 295.0,
+      "text": "2014411",
+      "conf": 0.8621
+    },
+    {
+      "ymin": 690.0,
+      "xmin": 571.0,
+      "ymax": 711.0,
+      "xmax": 638.0,
+      "text": "2114112",
+      "conf": 0.7364
+    },
+    {
+      "ymin": 687.0,
+      "xmin": 922.0,
+      "ymax": 711.0,
+      "xmax": 992.0,
+      "text": "2114114",
+      "conf": 0.8628
+    },
+    {
+      "ymin": 690.0,
+      "xmin": 1597.0,
+      "ymax": 711.0,
+      "xmax": 1663.0,
+      "text": "2994511",
+      "conf": 0.8243
+    },
+    {
+      "ymin": 690.0,
+      "xmin": 1928.0,
+      "ymax": 708.0,
+      "xmax": 1972.0,
+      "text": "TOTAL",
+      "conf": 0.7736
+    },
+    {
+      "ymin": 691.0,
+      "xmin": 54.0,
+      "ymax": 711.0,
+      "xmax": 120.0,
+      "text": "1313311",
+      "conf": 0.7848
+    },
+    {
+      "ymin": 691.0,
+      "xmin": 406.0,
+      "ymax": 711.0,
+      "xmax": 471.0,
+      "text": "2114111",
+      "conf": 0.8012
+    },
+    {
+      "ymin": 691.0,
+      "xmin": 747.0,
+      "ymax": 711.0,
+      "xmax": 814.0,
+      "text": "2114113",
+      "conf": 0.8432
+    },
+    {
+      "ymin": 691.0,
+      "xmin": 1097.0,
+      "ymax": 711.0,
+      "xmax": 1164.0,
+      "text": "2114115",
+      "conf": 0.8096
+    },
+    {
+      "ymin": 691.0,
+      "xmin": 1259.0,
+      "ymax": 711.0,
+      "xmax": 1324.0,
+      "text": "2304211",
+      "conf": 0.7891
+    },
+    {
+      "ymin": 691.0,
+      "xmin": 1435.0,
+      "ymax": 711.0,
+      "xmax": 1502.0,
+      "text": "2304212",
+      "conf": 0.8329
+    },
+    {
+      "ymin": 691.0,
+      "xmin": 1764.0,
+      "ymax": 711.0,
+      "xmax": 1829.0,
+      "text": "2994512",
+      "conf": 0.8406
+    },
+    {
+      "ymin": 691.0,
+      "xmin": 2056.0,
+      "ymax": 708.0,
+      "xmax": 2105.0,
+      "text": "RESULT",
+      "conf": 0.7383
+    },
+    {
+      "ymin": 690.0,
+      "xmin": 2116.0,
+      "ymax": 707.0,
+      "xmax": 2168.0,
+      "text": "REMARK",
+      "conf": 0.8559
+    },
+    {
+      "ymin": 709.0,
+      "xmin": 746.0,
+      "ymax": 729.0,
+      "xmax": 875.0,
+      "text": "Operating System",
+      "conf": 0.8836
+    },
+    {
+      "ymin": 708.0,
+      "xmin": 1095.0,
+      "ymax": 729.0,
+      "xmax": 1381.0,
+      "text": "Operating System Lab Fundamentals of",
+      "conf": 0.9252
+    },
+    {
+      "ymin": 709.0,
+      "xmin": 1434.0,
+      "ymax": 730.0,
+      "xmax": 1479.0,
+      "text": "Basic",
+      "conf": 0.8076
+    },
+    {
+      "ymin": 710.0,
+      "xmin": 406.0,
+      "ymax": 730.0,
+      "xmax": 566.0,
+      "text": "Computational Theory",
+      "conf": 0.9048
+    },
+    {
+      "ymin": 708.0,
+      "xmin": 1596.0,
+      "ymax": 730.0,
+      "xmax": 1709.0,
+      "text": "Business Model",
+      "conf": 0.8832
+    },
+    {
+      "ymin": 711.0,
+      "xmin": 55.0,
+      "ymax": 728.0,
+      "xmax": 222.0,
+      "text": "Administrative Policy of",
+      "conf": 0.9117
+    },
+    {
+      "ymin": 711.0,
+      "xmin": 230.0,
+      "ymax": 728.0,
+      "xmax": 362.0,
+      "text": "Mini Project (TERM",
+      "conf": 0.8961
+    },
+    {
+      "ymin": 711.0,
+      "xmin": 572.0,
+      "ymax": 728.0,
+      "xmax": 739.0,
+      "text": "DatabaseManagement",
+      "conf": 0.9185
+    },
+    {
+      "ymin": 711.0,
+      "xmin": 926.0,
+      "ymax": 728.0,
+      "xmax": 1101.0,
+      "text": "DatabaseManagement",
+      "conf": 0.9275
+    },
+    {
+      "ymin": 701.0,
+      "xmin": 1760.0,
+      "ymax": 734.0,
+      "xmax": 1968.0,
+      "text": "Design Thinking (TERM (775)",
+      "conf": 0.917
+    },
+    {
+      "ymin": 720.0,
+      "xmin": 2064.0,
+      "ymax": 739.0,
+      "xmax": 2095.0,
+      "text": "aCG",
+      "conf": 0.5757
+    },
+    {
+      "ymin": 717.0,
+      "xmin": 2138.0,
+      "ymax": 735.0,
+      "xmax": 2168.0,
+      "text": "äCG",
+      "conf": 0.5779
+    },
+    {
+      "ymin": 727.0,
+      "xmin": 1257.0,
+      "ymax": 749.0,
+      "xmax": 1399.0,
+      "text": "Telecommunication",
+      "conf": 0.9252
+    },
+    {
+      "ymin": 728.0,
+      "xmin": 54.0,
+      "ymax": 748.0,
+      "xmax": 190.0,
+      "text": "Chhatrapati Shivaji",
+      "conf": 0.917
+    },
+    {
+      "ymin": 728.0,
+      "xmin": 407.0,
+      "ymax": 748.0,
+      "xmax": 478.0,
+      "text": "(THEORY)",
+      "conf": 0.8593
+    },
+    {
+      "ymin": 726.0,
+      "xmin": 571.0,
+      "ymax": 748.0,
+      "xmax": 699.0,
+      "text": "System (THEORY)",
+      "conf": 0.86
+    },
+    {
+      "ymin": 728.0,
+      "xmin": 747.0,
+      "ymax": 748.0,
+      "xmax": 820.0,
+      "text": "(THEORY)",
+      "conf": 0.8324
+    },
+    {
+      "ymin": 728.0,
+      "xmin": 925.0,
+      "ymax": 748.0,
+      "xmax": 1057.0,
+      "text": "System Lab (TERM",
+      "conf": 0.8911
+    },
+    {
+      "ymin": 728.0,
+      "xmin": 1098.0,
+      "ymax": 748.0,
+      "xmax": 1228.0,
+      "text": "(TERM WORK AND",
+      "conf": 0.8949
+    },
+    {
+      "ymin": 728.0,
+      "xmin": 1435.0,
+      "ymax": 748.0,
+      "xmax": 1576.0,
+      "text": "Telecommunication",
+      "conf": 0.8445
+    },
+    {
+      "ymin": 728.0,
+      "xmin": 1597.0,
+      "ymax": 748.0,
+      "xmax": 1743.0,
+      "text": "Development (TERM",
+      "conf": 0.8832
+    },
+    {
+      "ymin": 729.0,
+      "xmin": 231.0,
+      "ymax": 746.0,
+      "xmax": 358.0,
+      "text": "WORK AND ORAL)",
+      "conf": 0.8074
+    },
+    {
+      "ymin": 727.0,
+      "xmin": 1763.0,
+      "ymax": 748.0,
+      "xmax": 1817.0,
+      "text": "WORK)",
+      "conf": 0.7232
+    },
+    {
+      "ymin": 746.0,
+      "xmin": 54.0,
+      "ymax": 766.0,
+      "xmax": 197.0,
+      "text": "Maharaja (THEORY)",
+      "conf": 0.9009
+    },
+    {
+      "ymin": 747.0,
+      "xmin": 926.0,
+      "ymax": 764.0,
+      "xmax": 1052.0,
+      "text": "WORK AND ORAL)",
+      "conf": 0.8608
+    },
+    {
+      "ymin": 747.0,
+      "xmin": 1098.0,
+      "ymax": 765.0,
+      "xmax": 1145.0,
+      "text": "ORAL)",
+      "conf": 0.8297
+    },
+    {
+      "ymin": 745.0,
+      "xmin": 1258.0,
+      "ymax": 767.0,
+      "xmax": 1393.0,
+      "text": "Systems (THEORY)",
+      "conf": 0.8667
+    },
+    {
+      "ymin": 747.0,
+      "xmin": 1435.0,
+      "ymax": 764.0,
+      "xmax": 1572.0,
+      "text": "Experiments (TERM",
+      "conf": 0.8877
+    },
+    {
+      "ymin": 747.0,
+      "xmin": 1598.0,
+      "ymax": 765.0,
+      "xmax": 1649.0,
+      "text": "WORK)",
+      "conf": 0.8174
+    },
+    {
+      "ymin": 762.0,
+      "xmin": 1435.0,
+      "ymax": 784.0,
+      "xmax": 1564.0,
+      "text": "WORK AND ORAL)",
+      "conf": 0.9252
+    },
+    {
+      "ymin": 786.0,
+      "xmin": 1095.0,
+      "ymax": 807.0,
+      "xmax": 1242.0,
+      "text": "TERM WORK (25/10)",
+      "conf": 0.8435
+    },
+    {
+      "ymin": 787.0,
+      "xmin": 925.0,
+      "ymax": 806.0,
+      "xmax": 1067.0,
+      "text": "TERMWORK(25/10)",
+      "conf": 0.8714
+    },
+    {
+      "ymin": 789.0,
+      "xmin": 231.0,
+      "ymax": 806.0,
+      "xmax": 373.0,
+      "text": "TERM WORK (50/20)",
+      "conf": 0.8515
+    },
+    {
+      "ymin": 786.0,
+      "xmin": 1434.0,
+      "ymax": 807.0,
+      "xmax": 1580.0,
+      "text": "TERM WORK (25/10)",
+      "conf": 0.9184
+    },
+    {
+      "ymin": 789.0,
+      "xmin": 1598.0,
+      "ymax": 806.0,
+      "xmax": 1742.0,
+      "text": "TERM WORK (50/20)",
+      "conf": 0.8463
+    },
+    {
+      "ymin": 789.0,
+      "xmin": 1764.0,
+      "ymax": 805.0,
+      "xmax": 1906.0,
+      "text": "TERMWORK (50/20)",
+      "conf": 0.8686
+    },
+    {
+      "ymin": 812.0,
+      "xmin": 231.0,
+      "ymax": 829.0,
+      "xmax": 326.0,
+      "text": "ORAL(25/10)",
+      "conf": 0.8141
+    },
+    {
+      "ymin": 812.0,
+      "xmin": 925.0,
+      "ymax": 829.0,
+      "xmax": 1020.0,
+      "text": "ORAL(25/10)",
+      "conf": 0.898
+    },
+    {
+      "ymin": 811.0,
+      "xmin": 1097.0,
+      "ymax": 831.0,
+      "xmax": 1194.0,
+      "text": "ORAL (25/10)",
+      "conf": 0.8482
+    },
+    {
+      "ymin": 812.0,
+      "xmin": 1436.0,
+      "ymax": 829.0,
+      "xmax": 1530.0,
+      "text": "ORAL (25/10)",
+      "conf": 0.8812
+    },
+    {
+      "ymin": 835.0,
+      "xmin": 55.0,
+      "ymax": 852.0,
+      "xmax": 168.0,
+      "text": "External (30/12)",
+      "conf": 0.8798
+    },
+    {
+      "ymin": 835.0,
+      "xmin": 408.0,
+      "ymax": 852.0,
+      "xmax": 521.0,
+      "text": "External (60/24)",
+      "conf": 0.8895
+    },
+    {
+      "ymin": 835.0,
+      "xmin": 573.0,
+      "ymax": 852.0,
+      "xmax": 687.0,
+      "text": "External (60/24)",
+      "conf": 0.8608
+    },
+    {
+      "ymin": 835.0,
+      "xmin": 748.0,
+      "ymax": 852.0,
+      "xmax": 861.0,
+      "text": "External (60/24)",
+      "conf": 0.8965
+    },
+    {
+      "ymin": 835.0,
+      "xmin": 1260.0,
+      "ymax": 852.0,
+      "xmax": 1374.0,
+      "text": "External (60/24)",
+      "conf": 0.8961
+    },
+    {
+      "ymin": 857.0,
+      "xmin": 53.0,
+      "ymax": 877.0,
+      "xmax": 152.0,
+      "text": "Internal(20/8)",
+      "conf": 0.915
+    },
+    {
+      "ymin": 857.0,
+      "xmin": 405.0,
+      "ymax": 877.0,
+      "xmax": 513.0,
+      "text": "Internal(40/16)",
+      "conf": 0.8958
+    },
+    {
+      "ymin": 857.0,
+      "xmin": 572.0,
+      "ymax": 877.0,
+      "xmax": 680.0,
+      "text": "Internal(40/16)",
+      "conf": 0.8948
+    },
+    {
+      "ymin": 857.0,
+      "xmin": 747.0,
+      "ymax": 877.0,
+      "xmax": 856.0,
+      "text": "Internal(40/16)",
+      "conf": 0.9156
+    },
+    {
+      "ymin": 858.0,
+      "xmin": 1259.0,
+      "ymax": 875.0,
+      "xmax": 1366.0,
+      "text": "Internal(40/16)",
+      "conf": 0.8824
+    },
+    {
+      "ymin": 879.0,
+      "xmin": 999.0,
+      "ymax": 900.0,
+      "xmax": 1042.0,
+      "text": "GP G",
+      "conf": 0.7801
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 54.0,
+      "ymax": 899.0,
+      "xmax": 88.0,
+      "text": "TOT",
+      "conf": 0.5397
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 130.0,
+      "ymax": 900.0,
+      "xmax": 263.0,
+      "text": "GP GC G*C TOT",
+      "conf": 0.8888
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 348.0,
+      "ymax": 900.0,
+      "xmax": 439.0,
+      "text": "C G*C TOT",
+      "conf": 0.8069
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 482.0,
+      "ymax": 900.0,
+      "xmax": 605.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.8367
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 694.0,
+      "ymax": 900.0,
+      "xmax": 781.0,
+      "text": "C G*C TOT",
+      "conf": 0.8453
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 823.0,
+      "ymax": 900.0,
+      "xmax": 958.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.8507
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 1049.0,
+      "ymax": 900.0,
+      "xmax": 1130.0,
+      "text": "C G*C TOT",
+      "conf": 0.8053
+    },
+    {
+      "ymin": 878.0,
+      "xmin": 1174.0,
+      "ymax": 900.0,
+      "xmax": 1291.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.854
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 1384.0,
+      "ymax": 900.0,
+      "xmax": 1469.0,
+      "text": "C G*C TOT",
+      "conf": 0.8355
+    },
+    {
+      "ymin": 881.0,
+      "xmin": 306.0,
+      "ymax": 899.0,
+      "xmax": 349.0,
+      "text": "GP G",
+      "conf": 0.7552
+    },
+    {
+      "ymin": 881.0,
+      "xmin": 649.0,
+      "ymax": 899.0,
+      "xmax": 688.0,
+      "text": "GP G",
+      "conf": 0.7224
+    },
+    {
+      "ymin": 881.0,
+      "xmin": 1335.0,
+      "ymax": 899.0,
+      "xmax": 1377.0,
+      "text": "GP G",
+      "conf": 0.7496
+    },
+    {
+      "ymin": 881.0,
+      "xmin": 1512.0,
+      "ymax": 898.0,
+      "xmax": 1629.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.8654
+    },
+    {
+      "ymin": 881.0,
+      "xmin": 1675.0,
+      "ymax": 898.0,
+      "xmax": 1795.0,
+      "text": "GP G C G*C TOT",
+      "conf": 0.8555
+    },
+    {
+      "ymin": 880.0,
+      "xmin": 1839.0,
+      "ymax": 900.0,
+      "xmax": 1926.0,
+      "text": "GP G C G*C",
+      "conf": 0.8554
+    },
+    {
+      "ymin": 916.0,
+      "xmin": 54.0,
+      "ymax": 936.0,
+      "xmax": 138.0,
+      "text": "101410042",
+      "conf": 0.8551
+    },
+    {
+      "ymin": 916.0,
+      "xmin": 230.0,
+      "ymax": 936.0,
+      "xmax": 466.0,
+      "text": "GUNDLAPALLI ANJALI VENUGOPAL",
+      "conf": 0.9182
+    },
+    {
+      "ymin": 916.0,
+      "xmin": 571.0,
+      "ymax": 937.0,
+      "xmax": 631.0,
+      "text": "Regular",
+      "conf": 0.8745
+    },
+    {
+      "ymin": 916.0,
+      "xmin": 748.0,
+      "ymax": 936.0,
+      "xmax": 924.0,
+      "text": "(MU0341120252010550)",
+      "conf": 0.9232
+    },
+    {
+      "ymin": 917.0,
+      "xmin": 673.0,
+      "ymax": 935.0,
+      "xmax": 730.0,
+      "text": "FEMALE",
+      "conf": 0.8113
+    },
+    {
+      "ymin": 925.0,
+      "xmin": 924.0,
+      "ymax": 945.0,
+      "xmax": 987.0,
+      "text": "MUMBAI",
+      "conf": 0.7886
+    },
+    {
+      "ymin": 948.0,
+      "xmin": 20.0,
+      "ymax": 969.0,
+      "xmax": 44.0,
+      "text": "T1",
+      "conf": 0.5487
+    },
+    {
+      "ymin": 948.0,
+      "xmin": 229.0,
+      "ymax": 969.0,
+      "xmax": 253.0,
+      "text": "29",
+      "conf": 0.6094
+    },
+    {
+      "ymin": 948.0,
+      "xmin": 924.0,
+      "ymax": 969.0,
+      "xmax": 949.0,
+      "text": "18",
+      "conf": 0.5735
+    },
+    {
+      "ymin": 948.0,
+      "xmin": 1096.0,
+      "ymax": 969.0,
+      "xmax": 1121.0,
+      "text": "18",
+      "conf": 0.6665
+    },
+    {
+      "ymin": 948.0,
+      "xmin": 1434.0,
+      "ymax": 969.0,
+      "xmax": 1459.0,
+      "text": "19",
+      "conf": 0.666
+    },
+    {
+      "ymin": 948.0,
+      "xmin": 1596.0,
+      "ymax": 969.0,
+      "xmax": 1621.0,
+      "text": "39",
+      "conf": 0.6662
+    },
+    {
+      "ymin": 948.0,
+      "xmin": 1763.0,
+      "ymax": 969.0,
+      "xmax": 1788.0,
+      "text": "39",
+      "conf": 0.63
+    },
+    {
+      "ymin": 971.0,
+      "xmin": 21.0,
+      "ymax": 992.0,
+      "xmax": 46.0,
+      "text": "01",
+      "conf": 0.6649
+    },
+    {
+      "ymin": 971.0,
+      "xmin": 228.0,
+      "ymax": 992.0,
+      "xmax": 254.0,
+      "text": "16",
+      "conf": 0.612
+    },
+    {
+      "ymin": 971.0,
+      "xmin": 924.0,
+      "ymax": 992.0,
+      "xmax": 949.0,
+      "text": "13",
+      "conf": 0.6085
+    },
+    {
+      "ymin": 971.0,
+      "xmin": 1096.0,
+      "ymax": 992.0,
+      "xmax": 1121.0,
+      "text": "18",
+      "conf": 0.6665
+    },
+    {
+      "ymin": 971.0,
+      "xmin": 1435.0,
+      "ymax": 992.0,
+      "xmax": 1459.0,
+      "text": "20",
+      "conf": 0.6648
+    },
+    {
+      "ymin": 993.0,
+      "xmin": 19.0,
+      "ymax": 1017.0,
+      "xmax": 79.0,
+      "text": "E1  16",
+      "conf": 0.6848
+    },
+    {
+      "ymin": 994.0,
+      "xmin": 405.0,
+      "ymax": 1016.0,
+      "xmax": 429.0,
+      "text": "24",
+      "conf": 0.6009
+    },
+    {
+      "ymin": 994.0,
+      "xmin": 571.0,
+      "ymax": 1016.0,
+      "xmax": 595.0,
+      "text": "24",
+      "conf": 0.6521
+    },
+    {
+      "ymin": 995.0,
+      "xmin": 746.0,
+      "ymax": 1016.0,
+      "xmax": 771.0,
+      "text": "11",
+      "conf": 0.6399
+    },
+    {
+      "ymin": 995.0,
+      "xmin": 888.0,
+      "ymax": 1015.0,
+      "xmax": 917.0,
+      "text": "0.0",
+      "conf": 0.6274
+    },
+    {
+      "ymin": 995.0,
+      "xmin": 1399.0,
+      "ymax": 1015.0,
+      "xmax": 1427.0,
+      "text": "0.0",
+      "conf": 0.7491
+    },
+    {
+      "ymin": 996.0,
+      "xmin": 1929.0,
+      "ymax": 1014.0,
+      "xmax": 1979.0,
+      "text": "MARKS",
+      "conf": 0.8315
+    },
+    {
+      "ymin": 1015.0,
+      "xmin": 404.0,
+      "ymax": 1040.0,
+      "xmax": 430.0,
+      "text": "21",
+      "conf": 0.6363
+    },
+    {
+      "ymin": 1017.0,
+      "xmin": 570.0,
+      "ymax": 1039.0,
+      "xmax": 595.0,
+      "text": "13",
+      "conf": 0.6665
+    },
+    {
+      "ymin": 1016.0,
+      "xmin": 887.0,
+      "ymax": 1040.0,
+      "xmax": 918.0,
+      "text": "0.0",
+      "conf": 0.74
+    },
+    {
+      "ymin": 1017.0,
+      "xmin": 1258.0,
+      "ymax": 1039.0,
+      "xmax": 1282.0,
+      "text": "21",
+      "conf": 0.5463
+    },
+    {
+      "ymin": 1018.0,
+      "xmin": 193.0,
+      "ymax": 1038.0,
+      "xmax": 222.0,
+      "text": "0.0",
+      "conf": 0.7495
+    },
+    {
+      "ymin": 1018.0,
+      "xmin": 711.0,
+      "ymax": 1038.0,
+      "xmax": 741.0,
+      "text": "0.0",
+      "conf": 0.7492
+    },
+    {
+      "ymin": 1018.0,
+      "xmin": 743.0,
+      "ymax": 1038.0,
+      "xmax": 771.0,
+      "text": "14",
+      "conf": 0.6094
+    },
+    {
+      "ymin": 1018.0,
+      "xmin": 1929.0,
+      "ymax": 1040.0,
+      "xmax": 1972.0,
+      "text": "(387)",
+      "conf": 0.7382
+    },
+    {
+      "ymin": 1019.0,
+      "xmin": 2117.0,
+      "ymax": 1037.0,
+      "xmax": 2166.0,
+      "text": "FAILED",
+      "conf": 0.794
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 224.0,
+      "ymax": 1061.0,
+      "xmax": 252.0,
+      "text": "45",
+      "conf": 0.6665
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 328.0,
+      "ymax": 1061.0,
+      "xmax": 428.0,
+      "text": "B+ 2 14.0 45",
+      "conf": 0.8351
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 503.0,
+      "ymax": 1061.0,
+      "xmax": 595.0,
+      "text": "D 3 12.0 37",
+      "conf": 0.8298
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 695.0,
+      "ymax": 1062.0,
+      "xmax": 741.0,
+      "text": "3 0.0",
+      "conf": 0.7879
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 745.0,
+      "ymax": 1061.0,
+      "xmax": 770.0,
+      "text": "25",
+      "conf": 0.6666
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 923.0,
+      "ymax": 1061.0,
+      "xmax": 947.0,
+      "text": "31",
+      "conf": 0.5236
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 1022.0,
+      "ymax": 1061.0,
+      "xmax": 1120.0,
+      "text": "B+ 1 7.0 36",
+      "conf": 0.8539
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 1193.0,
+      "ymax": 1062.0,
+      "xmax": 1282.0,
+      "text": "A1 8.0 29",
+      "conf": 0.7776
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 1383.0,
+      "ymax": 1062.0,
+      "xmax": 1430.0,
+      "text": "3 0.0",
+      "conf": 0.7866
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 1426.0,
+      "ymax": 1062.0,
+      "xmax": 1459.0,
+      "text": "39",
+      "conf": 0.596
+    },
+    {
+      "ymin": 1040.0,
+      "xmin": 1531.0,
+      "ymax": 1061.0,
+      "xmax": 1621.0,
+      "text": "A18.0 39",
+      "conf": 0.8584
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 1695.0,
+      "ymax": 1061.0,
+      "xmax": 1787.0,
+      "text": "A 2 16.0 39",
+      "conf": 0.8603
+    },
+    {
+      "ymin": 1042.0,
+      "xmin": 178.0,
+      "ymax": 1060.0,
+      "xmax": 222.0,
+      "text": "2 0.0",
+      "conf": 0.7394
+    },
+    {
+      "ymin": 1042.0,
+      "xmin": 873.0,
+      "ymax": 1060.0,
+      "xmax": 917.0,
+      "text": "3 0.0",
+      "conf": 0.7562
+    },
+    {
+      "ymin": 1040.0,
+      "xmin": 19.0,
+      "ymax": 1064.0,
+      "xmax": 77.0,
+      "text": "TOT 22",
+      "conf": 0.8207
+    },
+    {
+      "ymin": 1041.0,
+      "xmin": 1858.0,
+      "ymax": 1061.0,
+      "xmax": 1952.0,
+      "text": "A 2 16.0 23",
+      "conf": 0.8283
+    },
+    {
+      "ymin": 1043.0,
+      "xmin": 2063.0,
+      "ymax": 1060.0,
+      "xmax": 2166.0,
+      "text": "81.0 0.00000",
+      "conf": 0.8937
+    },
+    {
+      "ymin": 1438.0,
+      "xmin": 28.0,
+      "ymax": 1454.0,
+      "xmax": 328.0,
+      "text": "#:0.229;@:0.5042A/0.5043A/0.5044A;",
+      "conf": 0.9002
+    },
+    {
+      "ymin": 1438.0,
+      "xmin": 344.0,
+      "ymax": 1454.0,
+      "xmax": 560.0,
+      "text": "O.5045A; AA/ABS: ABSENT; F",
+      "conf": 0.889
+    },
+    {
+      "ymin": 1439.0,
+      "xmin": 848.0,
+      "ymax": 1452.0,
+      "xmax": 893.0,
+      "text": "EXMP",
+      "conf": 0.7981
+    },
+    {
+      "ymin": 1440.0,
+      "xmin": 699.0,
+      "ymax": 1450.0,
+      "xmax": 747.0,
+      "text": "UNSU",
+      "conf": 0.7412
+    },
+    {
+      "ymin": 1440.0,
+      "xmin": 1044.0,
+      "ymax": 1453.0,
+      "xmax": 1210.0,
+      "text": ":Dyslexia; +:MARKS",
+      "conf": 0.8825
+    },
+    {
+      "ymin": 1441.0,
+      "xmin": 892.0,
+      "ymax": 1451.0,
+      "xmax": 958.0,
+      "text": "CAN BE",
+      "conf": 0.7213
+    },
+    {
+      "ymin": 1441.0,
+      "xmin": 1854.0,
+      "ymax": 1451.0,
+      "xmax": 1888.0,
+      "text": "NUL",
+      "conf": 0.6523
+    },
+    {
+      "ymin": 1438.0,
+      "xmin": 1911.0,
+      "ymax": 1454.0,
+      "xmax": 2096.0,
+      "text": "VOID.;ADC:ADMISSION",
+      "conf": 0.8633
+    },
+    {
+      "ymin": 1455.0,
+      "xmin": 25.0,
+      "ymax": 1476.0,
+      "xmax": 1431.0,
+      "text": "CANCELLED; RR: RESERVED; C: CREDIT POINTS EARNED; G: GRADE POINTS; aC: SUM OF C; aCG: SUM OF CxG; SGPI: SEMESTER GRADE PERFORMANCE INDEX = aCG / aC; RR: RESERVED;",
+      "conf": 0.9372
+    },
+    {
+      "ymin": 1491.0,
+      "xmin": 25.0,
+      "ymax": 1511.0,
+      "xmax": 380.0,
+      "text": "(NEP 2020)EXAMINATION HELD IN MAY 2026",
+      "conf": 0.8952
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 21.0,
+      "ymax": 1544.0,
+      "xmax": 86.0,
+      "text": "%Marks",
+      "conf": 0.7985
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 412.0,
+      "ymax": 1544.0,
+      "xmax": 462.0,
+      "text": ">=90",
+      "conf": 0.7285
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 594.0,
+      "ymax": 1543.0,
+      "xmax": 712.0,
+      "text": ">=80 and <90",
+      "conf": 0.8443
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 820.0,
+      "ymax": 1543.0,
+      "xmax": 937.0,
+      "text": ">=70 and <80",
+      "conf": 0.8189
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 1044.0,
+      "ymax": 1543.0,
+      "xmax": 1163.0,
+      "text": ">=60 and <70",
+      "conf": 0.8519
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 1269.0,
+      "ymax": 1543.0,
+      "xmax": 1388.0,
+      "text": ">=55 and <60",
+      "conf": 0.8669
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 1494.0,
+      "ymax": 1543.0,
+      "xmax": 1610.0,
+      "text": ">=50 and <55",
+      "conf": 0.761
+    },
+    {
+      "ymin": 1523.0,
+      "xmin": 1717.0,
+      "ymax": 1543.0,
+      "xmax": 1834.0,
+      "text": ">=40 and <50",
+      "conf": 0.7533
+    },
+    {
+      "ymin": 1522.0,
+      "xmin": 1953.0,
+      "ymax": 1544.0,
+      "xmax": 1996.0,
+      "text": "< 40",
+      "conf": 0.7699
+    },
+    {
+      "ymin": 1550.0,
+      "xmin": 1087.0,
+      "ymax": 1573.0,
+      "xmax": 1118.0,
+      "text": "B+",
+      "conf": 0.6644
+    },
+    {
+      "ymin": 1551.0,
+      "xmin": 22.0,
+      "ymax": 1572.0,
+      "xmax": 73.0,
+      "text": "Grade",
+      "conf": 0.8182
+    },
+    {
+      "ymin": 1551.0,
+      "xmin": 638.0,
+      "ymax": 1572.0,
+      "xmax": 666.0,
+      "text": "A+",
+      "conf": 0.6556
+    },
+    {
+      "ymin": 1579.0,
+      "xmin": 423.0,
+      "ymax": 1600.0,
+      "xmax": 449.0,
+      "text": "10",
+      "conf": 0.6662
+    },
+    {
+      "ymin": 1580.0,
+      "xmin": 22.0,
+      "ymax": 1600.0,
+      "xmax": 131.0,
+      "text": "GRADE POINT",
+      "conf": 0.8696
+    }
+  ]
+}
