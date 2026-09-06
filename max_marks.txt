@@ -1,0 +1,65 @@
+max_marks = {
+    "OE": {
+        "external": 30,
+        "internal": 20,
+        "total": 50
+    },
+
+    "MINIPROJ": {
+        "term_work": 50,
+        "oral": 25,
+        "total": 75
+    },
+
+    "CT": {
+        "external": 60,
+        "internal": 40,
+        "total": 100
+    },
+
+    "DBMS": {
+        "external": 60,
+        "internal": 40,
+        "total": 100
+    },
+
+    "OS": {
+        "external": 60,
+        "internal": 40,
+        "total": 100
+    },
+
+    "DBMS_LAB": {
+        "term_work": 25,
+        "oral": 25,
+        "total": 50
+    },
+
+    "OS_LAB": {
+        "term_work": 25,
+        "oral": 25,
+        "total": 50
+    },
+
+    "FTS": {
+        "external": 60,
+        "internal": 40,
+        "total": 100
+    },
+
+    "TC_LAB": {
+        "term_work": 50,
+        "oral": 25,
+        "total": 75
+    },
+
+    "BMD": {
+        "term_work": 50,
+        "total": 50
+    },
+
+    "DT": {
+        "term_work": 50,
+        "total": 50
+    }
+}

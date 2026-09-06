@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# MS Office temporary lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
 # Distribution / packaging
 .Python
 build/
