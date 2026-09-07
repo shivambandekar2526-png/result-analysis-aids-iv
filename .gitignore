@@ -1,4 +1,4 @@
-﻿# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -39,11 +39,16 @@ env/
 venv/
 ENV/
 
+# Ephemeral scratch & cache
+scratch/
+data/cache/ocr_cache/
+
 # IDE / Editor files
-.vscode/
 .idea/
 *.swp
 *.swo
+.vscode/*
+!.vscode/settings.json
 
 # OS generated files
 Thumbs.db
