@@ -1,19 +1,20 @@
-﻿import os, sys
+import os, sys
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
-from sklearn.linear_model import Ridge, LogisticRegression
-from sklearn.cluster import KMeans
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, classification_report
-from sklearn.preprocessing import StandardScaler
 
-from feature_engineering import load_and_engineer_features
+# Ensure imports work both from root and src/ml
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from ml.feature_engineering import load_and_engineer_features
+from ml.clustering import run_kmeans_clustering
 
 def run_ml_experiments():
     df = load_and_engineer_features()
     
-    # 1. Regression: Predict SGPA from internal and lab coursework marks
+    # 1. Regression: Predict Grand Total from internal coursework marks
     coursework_features = [
         "OE_internal", "CT_internal", "DBMS_internal", "OS_internal", "FTS_internal",
         "MINIPROJ_term_work", "MINIPROJ_oral", "DBMS_LAB_term_work", "DBMS_LAB_oral",
@@ -21,7 +22,6 @@ def run_ml_experiments():
         "BMD_term_work", "DT_term_work"
     ]
     
-    # Clean nulls
     X_reg = df[coursework_features].fillna(0)
     y_reg = df["overall_total"]
     
@@ -33,7 +33,9 @@ def run_ml_experiments():
     
     r2 = r2_score(y_test, y_pred_reg)
     rmse = np.sqrt(mean_squared_error(y_test, y_pred_reg))
+    print("=" * 80)
     print("=== 1. COURSEWORK TO FINAL SCORE REGRESSION ===")
+    print("=" * 80)
     print(f"Ridge Regression R² Score: {r2:.4f}")
     print(f"RMSE: {rmse:.2f} marks (out of 775)")
     
@@ -46,7 +48,9 @@ def run_ml_experiments():
     y_pred_cls = clf_model.predict(X_test_c)
     
     acc = accuracy_score(y_test_c, y_pred_cls)
-    print("\n=== 2. EARLY AT-RISK STUDENT PREDICTION CLASSIFIER ===")
+    print("\n" + "=" * 80)
+    print("=== 2. EARLY AT-RISK STUDENT PREDICTION CLASSIFIER ===")
+    print("=" * 80)
     print(f"Accuracy: {acc*100:.2f}%")
     print("Classification Report:\n", classification_report(y_test_c, y_pred_cls, target_names=["Not At-Risk", "At-Risk"]))
     
@@ -56,18 +60,9 @@ def run_ml_experiments():
     for feat, imp in importances.head(5).items():
         print(f"  - {feat:20s}: {imp*100:.2f}% importance")
         
-    # 3. K-Means Student Segmentation
-    cluster_features = ["theory_avg_pct", "lab_avg_pct", "internal_total_score", "external_total_score"]
-    scaler = StandardScaler()
-    X_cluster_scaled = scaler.fit_transform(df[cluster_features].fillna(0))
-    
-    kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
-    df["student_cluster"] = kmeans.fit_predict(X_cluster_scaled)
-    
-    print("\n=== 3. K-MEANS STUDENT PERSONA CLUSTERING (K=3) ===")
-    cluster_summary = df.groupby("student_cluster")[["theory_avg_pct", "lab_avg_pct", "overall_total", "sgpi"]].mean()
-    cluster_summary["student_count"] = df["student_cluster"].value_counts()
-    print(cluster_summary)
+    # 3. K-Means Student Segmentation & Visual Analytics
+    print("\n")
+    run_kmeans_clustering()
 
 if __name__ == "__main__":
     run_ml_experiments()
