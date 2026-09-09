@@ -24,13 +24,14 @@ result-analysis-aids/
 │       └── ocr_cache/                          # 47 raw OCR page extraction caches (gitignored)
 │
 ├── deliverables/                               # Centralized stakeholder presentations & executive reports
-│   ├── AI_DS_Sem4_Academic_Result_Analysis_Final.pptx       # 12-slide executive presentation
-│   ├── AI_DS_SEM4_Academic_Result_Analysis_Presentation.pptx # 20-slide analytical deep-dive presentation
-│   └── Academic_Result_Analysis_Report.docx                 # Formal executive Word analysis report
+│   ├── AI_DS_Sem4_Executive_Summary_Deck.pptx          # 12-slide executive presentation
+│   ├── AI_DS_Sem4_Comprehensive_Analysis_Deck.pptx     # 20-slide analytical deep-dive presentation
+│   ├── AI_DS_Sem4_Archived_Draft_Deck.pptx             # Archived baseline slide deck
+│   └── Academic_Result_Analysis_Report.docx            # Formal executive Word analysis report
 │
 ├── notebooks/                                  # Interactive Jupyter Notebook Workspaces
-│   ├── eda_complete.ipynb                      # Comprehensive 100-cell EDA & visual analytics workspace
-│   └── complete_data-analysis.ipynb            # Initial data ingestion & extraction audit workspace
+│   ├── 01_exploratory_data_analysis.ipynb      # Comprehensive 100-cell EDA & visual analytics workspace
+│   └── 02_data_audit_and_checks.ipynb          # Initial data ingestion & extraction audit workspace
 │
 ├── src/                                        # Modular Python Package
 │   ├── config.py                               # Subject codes, evaluation schemes, credits & file paths
@@ -38,22 +39,26 @@ result-analysis-aids/
 │   │   └── eda.py                              # Visualizations, distributions & descriptive statistics
 │   └── ml/
 │       ├── feature_engineering.py              # Automated feature derivation (Theory/Lab ratios, health indices)
-│       ├── clustering.py                       # Baseline K-Means clustering (3 clusters, 4 metrics, diagnostics)
+│       ├── clustering_v1.py                    # Baseline K-Means clustering (3 clusters, 4 metrics, diagnostics)
 │       ├── clustering_v2.py                    # Competency-based K-Means clustering (4 clusters, 17 features)
+│       ├── clustering.py                       # Unified facade & runner for both V1 and V2 models
 │       ├── regression.py                       # Predictive SGPI & total marks regression pipelines
 │       └── models.py                           # Central runner for all ML models
 │
 ├── reports/                                    # Analytical Artifacts & Ground-Truth Documentation
-│   ├── AUDIT_AND_CORRECTION_REPORT.md          # Comprehensive PDF ground-truth audit & verification signoff
-│   ├── clustering_v2_summary.txt               # Statistical profiles & personas for V2 clusters
-│   ├── documentation/                          # Supporting Word documentation (QNA, technical reports)
+│   ├── audit/                                  # Audit reports & verification signoffs
+│   │   └── AUDIT_AND_CORRECTION_REPORT.md      # Comprehensive PDF ground-truth audit & verification signoff
+│   ├── summaries/                              # Machine learning & statistical persona summaries
+│   │   └── clustering_v2_summary.txt           # Statistical profiles & personas for V2 clusters
+│   ├── documentation/                          # Supporting Word documentation (Q&A, technical reports)
 │   │   ├── Academic_Result_Analysis_Report.docx
-│   │   ├── data_analysis_report.docx
-│   │   └── QNA.docx
+│   │   ├── Data_Analysis_Report.docx
+│   │   └── Academic_QNA_Discussion.docx
 │   └── figures/                                # High-resolution analytical charts & plots (>= 150 DPI)
-│       ├── clustering_v2_*.png                 # V2 radar, elbow, silhouette, PCA, boxplots
-│       ├── kmeans_*.png                        # Baseline V1 diagnostic & persona plots
-│       └── extracted_eda/                      # Notebook-rendered exploratory charts
+│       ├── eda/                                # Exploratory data analysis distributions & breakdowns
+│       │   └── extracted/                      # Notebook-rendered exploratory charts (16 figures)
+│       ├── clustering_v1/                      # Baseline V1 diagnostic & persona plots (17 figures)
+│       └── clustering_v2/                      # V2 radar, elbow, silhouette, PCA, boxplots (6 figures)
 │
 └── scripts/                                    # Standalone analytical tools & generators
     ├── generators/                             # Document & presentation generation pipelines
@@ -108,35 +113,40 @@ python src/ml/models.py
 python src/ml/clustering_v2.py
 ```
 
-### 3. Run Coursework-to-SGPI Regression
+### 3. Run Baseline K-Means Clustering (V1)
+```bash
+python src/ml/clustering_v1.py
+```
+
+### 4. Run Coursework-to-SGPI Regression
 ```bash
 python src/ml/regression.py
 ```
 
-### 4. Run Exploratory Data Analysis (EDA)
+### 5. Run Exploratory Data Analysis (EDA)
 ```bash
 python src/analytics/eda.py
 ```
 
-### 5. Generate Presentations and Reports
+### 6. Generate Presentations and Reports
 ```bash
 python scripts/generators/generate_powerpoint_presentation.py
 python scripts/generators/generate_word_report.py
 ```
 
-### 6. Run Student Spotlight & Subject Difficulty Analysis
+### 7. Run Student Spotlight & Subject Difficulty Analysis
 ```bash
 python scripts/analytics/compare_shivam_stats.py
 python scripts/analytics/weakest_subject_analysis.py
 python scripts/analytics/top_rankers_compare.py
 ```
 
-### 7. Run Comprehensive Ground-Truth Audit
+### 8. Run Comprehensive Ground-Truth Audit
 ```bash
 python scripts/audit/audit_step3_comprehensive.py
 ```
 
-### 8. Launch Interactive Jupyter Notebooks
+### 9. Launch Interactive Jupyter Notebooks
 ```bash
-jupyter notebook notebooks/eda_complete.ipynb
+jupyter notebook notebooks/01_exploratory_data_analysis.ipynb
 ```

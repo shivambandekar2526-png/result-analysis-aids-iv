@@ -1,16 +1,21 @@
-﻿import os, sys
+import os, sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config import PROCESSED_DATA_PATH, FIGURES_DIR, SUBJECTS
+try:
+    from config import PROCESSED_DATA_PATH, FIGURES_DIR, EDA_FIGURES_DIR, SUBJECTS
+except ImportError:
+    from config import PROCESSED_DATA_PATH, FIGURES_DIR, SUBJECTS
+    EDA_FIGURES_DIR = os.path.join(FIGURES_DIR, "eda")
 
 def load_data():
     return pd.read_csv(PROCESSED_DATA_PATH)
 
 def generate_eda_charts():
-    os.makedirs(FIGURES_DIR, exist_ok=True)
+    target_dir = EDA_FIGURES_DIR if "EDA_FIGURES_DIR" in globals() else os.path.join(FIGURES_DIR, "eda")
+    os.makedirs(target_dir, exist_ok=True)
     df = load_data()
     
     # 1. SGPA Distribution Plot
@@ -25,7 +30,7 @@ def generate_eda_charts():
     plt.legend(fontsize=11)
     plt.grid(axis="y", linestyle="--", alpha=0.6)
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "sgpa_distribution.png"), dpi=200)
+    plt.savefig(os.path.join(target_dir, "sgpa_distribution.png"), dpi=200)
     plt.close()
     
     # 2. Result Breakdown Pie Chart
@@ -36,7 +41,7 @@ def generate_eda_charts():
             explode=[0.05 if i == 0 else 0 for i in range(len(res_counts))], textprops={"fontsize": 12, "weight": "bold"})
     plt.title("Overall Examination Result Breakdown (N=88)", fontsize=14, fontweight="bold")
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "result_breakdown.png"), dpi=200)
+    plt.savefig(os.path.join(target_dir, "result_breakdown.png"), dpi=200)
     plt.close()
     
     # 3. Subject-wise Average Marks & Pass Rates
@@ -69,10 +74,10 @@ def generate_eda_charts():
     plt.legend(fontsize=11)
     plt.grid(axis="y", linestyle="--", alpha=0.6)
     plt.tight_layout()
-    plt.savefig(os.path.join(FIGURES_DIR, "subject_performance_comparison.png"), dpi=200)
+    plt.savefig(os.path.join(target_dir, "subject_performance_comparison.png"), dpi=200)
     plt.close()
     
-    print(f"Successfully generated and saved EDA figures to {FIGURES_DIR}")
+    print(f"Successfully generated and saved EDA figures to {target_dir}")
 
 if __name__ == "__main__":
     generate_eda_charts()

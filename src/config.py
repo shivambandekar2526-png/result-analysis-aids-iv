@@ -1,4 +1,4 @@
-﻿# src/config.py
+# src/config.py
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -8,6 +8,12 @@ PROCESSED_DATA_PATH = os.path.join(DATA_DIR, "processed", "AI_DS_SEM4_MASTER_RES
 CACHE_DIR = os.path.join(DATA_DIR, "cache", "ocr_cache")
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 FIGURES_DIR = os.path.join(REPORTS_DIR, "figures")
+EDA_FIGURES_DIR = os.path.join(FIGURES_DIR, "eda")
+CLUSTERING_V1_FIGURES_DIR = os.path.join(FIGURES_DIR, "clustering_v1")
+CLUSTERING_V2_FIGURES_DIR = os.path.join(FIGURES_DIR, "clustering_v2")
+SUMMARIES_DIR = os.path.join(REPORTS_DIR, "summaries")
+AUDIT_DIR = os.path.join(REPORTS_DIR, "audit")
+DOCUMENTATION_DIR = os.path.join(REPORTS_DIR, "documentation")
 
 SUBJECTS = [
     {

@@ -16,13 +16,13 @@ Academic Clustering Strategy:
 
 Reads  : data/processed/AI_DS_SEM4_MASTER_RESULTS.csv
 Writes : data/processed/AI_DS_SEM4_STUDENT_CLUSTERS_V2.csv
-         reports/figures/clustering_v2_elbow.png
-         reports/figures/clustering_v2_silhouette.png
-         reports/figures/clustering_v2_pca.png
-         reports/figures/clustering_v2_radar.png
-         reports/figures/clustering_v2_silhouette_detail.png
-         reports/figures/clustering_v2_boxplot.png
-         reports/clustering_v2_summary.txt
+         reports/figures/clustering_v2/clustering_v2_elbow.png
+         reports/figures/clustering_v2/clustering_v2_silhouette.png
+         reports/figures/clustering_v2/clustering_v2_pca.png
+         reports/figures/clustering_v2/clustering_v2_radar.png
+         reports/figures/clustering_v2/clustering_v2_silhouette_detail.png
+         reports/figures/clustering_v2/clustering_v2_boxplot.png
+         reports/summaries/clustering_v2_summary.txt
 """
 
 from pathlib import Path
@@ -42,8 +42,8 @@ import matplotlib.cm as cm
 ROOT = Path(__file__).resolve().parents[2]
 DATA_IN = ROOT / "data" / "processed" / "AI_DS_SEM4_MASTER_RESULTS.csv"
 DATA_OUT = ROOT / "data" / "processed" / "AI_DS_SEM4_STUDENT_CLUSTERS_V2.csv"
-FIG_DIR = ROOT / "reports" / "figures"
-RPT_OUT = ROOT / "reports" / "clustering_v2_summary.txt"
+FIG_DIR = ROOT / "reports" / "figures" / "clustering_v2"
+RPT_OUT = ROOT / "reports" / "summaries" / "clustering_v2_summary.txt"
 
 
 def run_clustering_v2(data_path: Path | str | None = None) -> pd.DataFrame:
@@ -136,7 +136,7 @@ def run_clustering_v2(data_path: Path | str | None = None) -> pd.DataFrame:
     ax.set_title("Elbow Method (Academic Performance Clustering)")
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "clustering_v2_elbow.png", dpi=150)
+    fig.savefig(str(FIG_DIR / "clustering_v2_elbow.png"), dpi=150)
     plt.close(fig)
 
     # Silhouette Plot
@@ -147,7 +147,7 @@ def run_clustering_v2(data_path: Path | str | None = None) -> pd.DataFrame:
     ax.set_title("Silhouette Analysis")
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "clustering_v2_silhouette.png", dpi=150)
+    fig.savefig(str(FIG_DIR / "clustering_v2_silhouette.png"), dpi=150)
     plt.close(fig)
 
     CHOSEN_K = 4
@@ -243,6 +243,7 @@ def run_clustering_v2(data_path: Path | str | None = None) -> pd.DataFrame:
         lines.append("")
 
     report = "\n".join(lines)
+    RPT_OUT.parent.mkdir(parents=True, exist_ok=True)
     RPT_OUT.write_text(report, encoding="utf-8")
     print(f"Report written to: {RPT_OUT}")
 
@@ -278,7 +279,7 @@ def run_clustering_v2(data_path: Path | str | None = None) -> pd.DataFrame:
     ax.legend(fontsize=8, loc="best")
     ax.grid(True, alpha=0.2)
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "clustering_v2_pca.png", dpi=150)
+    fig.savefig(str(FIG_DIR / "clustering_v2_pca.png"), dpi=150)
     plt.close(fig)
 
     # 8b. Radar Chart of Domain Averages
@@ -299,7 +300,7 @@ def run_clustering_v2(data_path: Path | str | None = None) -> pd.DataFrame:
     ax.set_title("Cluster Performance Profiles Across Domains", y=1.08, fontsize=13)
     ax.legend(fontsize=8, loc="upper right", bbox_to_anchor=(1.45, 1.15))
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "clustering_v2_radar.png", dpi=150, bbox_inches="tight")
+    fig.savefig(str(FIG_DIR / "clustering_v2_radar.png"), dpi=150, bbox_inches="tight")
     plt.close(fig)
 
     # 8c. Boxplot of Percentage Distribution
@@ -316,7 +317,7 @@ def run_clustering_v2(data_path: Path | str | None = None) -> pd.DataFrame:
     ax.set_title("Grade Percentage Distribution Across Academic Clusters", fontsize=12)
     ax.grid(True, alpha=0.2, axis="y")
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "clustering_v2_boxplot.png", dpi=150)
+    fig.savefig(str(FIG_DIR / "clustering_v2_boxplot.png"), dpi=150)
     plt.close(fig)
 
     # 8d. Silhouette Plot per Cluster
@@ -335,7 +336,7 @@ def run_clustering_v2(data_path: Path | str | None = None) -> pd.DataFrame:
     ax.set_title("Silhouette Plot Across Clusters")
     ax.legend()
     fig.tight_layout()
-    fig.savefig(FIG_DIR / "clustering_v2_silhouette_detail.png", dpi=150)
+    fig.savefig(str(FIG_DIR / "clustering_v2_silhouette_detail.png"), dpi=150)
     plt.close(fig)
 
     # ---- 9. Export Clean Clustered Dataset -----------------------------------

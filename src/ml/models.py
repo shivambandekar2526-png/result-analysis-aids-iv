@@ -6,11 +6,21 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, classification_report
 
-# Ensure imports work both from root and src/ml
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from ml.feature_engineering import load_and_engineer_features
-from ml.clustering import run_kmeans_clustering
-from ml.clustering_v2 import run_clustering_v2
+_THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+_SRC_DIR = os.path.dirname(_THIS_DIR)
+_ROOT_DIR = os.path.dirname(_SRC_DIR)
+for _p in (_SRC_DIR, _THIS_DIR, _ROOT_DIR):
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
+
+try:
+    from ml.feature_engineering import load_and_engineer_features
+    from ml.clustering_v1 import run_kmeans_clustering
+    from ml.clustering_v2 import run_clustering_v2
+except ImportError:
+    from feature_engineering import load_and_engineer_features
+    from clustering_v1 import run_kmeans_clustering
+    from clustering_v2 import run_clustering_v2
 
 def run_ml_experiments():
     df = load_and_engineer_features()

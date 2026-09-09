@@ -29,6 +29,20 @@ def style_heading(doc, text, level):
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 data_path = os.path.join(ROOT_DIR, "data", "processed", "AI_DS_SEM4_MASTER_RESULTS.csv")
+
+def find_figure(filename: str) -> str | None:
+    """Find figure path across subdirectories in reports/figures/."""
+    candidates = [
+        os.path.join(ROOT_DIR, "reports", "figures", "eda", filename),
+        os.path.join(ROOT_DIR, "reports", "figures", filename),
+        os.path.join("reports", "figures", "eda", filename),
+        os.path.join("reports", "figures", filename),
+    ]
+    for p in candidates:
+        if os.path.exists(p):
+            return p
+    return None
+
 df = pd.read_csv(data_path)
 doc = Document()
 
@@ -149,14 +163,16 @@ for rank, (_, row) in enumerate(top10.iterrows(), start=1):
 doc.add_paragraph().paragraph_format.space_after = Pt(8)
 
 style_heading(doc, '4. Visual Analytics & Cohort Performance Distributions', level=1)
-if os.path.exists('reports/figures/result_breakdown.png'):
+fig_rb = find_figure('result_breakdown.png')
+if fig_rb:
     doc.add_paragraph('Figure 4.1: Overall Examination Result Distribution & KT Breakdown')
-    doc.add_picture('reports/figures/result_breakdown.png', width=Inches(6.0))
+    doc.add_picture(fig_rb, width=Inches(6.0))
     doc.add_paragraph().paragraph_format.space_after = Pt(8)
 
-if os.path.exists('reports/figures/sgpa_distribution.png'):
+fig_sgpa = find_figure('sgpa_distribution.png')
+if fig_sgpa:
     doc.add_paragraph('Figure 4.2: SGPI Grade Point Spread & Density Analysis')
-    doc.add_picture('reports/figures/sgpa_distribution.png', width=Inches(6.0))
+    doc.add_picture(fig_sgpa, width=Inches(6.0))
     doc.add_paragraph().paragraph_format.space_after = Pt(8)
 
 style_heading(doc, '5. Subject Performance & Difficulty Matrix', level=1)
@@ -215,9 +231,10 @@ for idx, (code, full_name) in enumerate(subjects):
 
 doc.add_paragraph().paragraph_format.space_after = Pt(8)
 
-if os.path.exists('reports/figures/subject_performance_comparison.png'):
+fig_subj = find_figure('subject_performance_comparison.png')
+if fig_subj:
     doc.add_paragraph('Figure 5.1: Comparative Subject Marks and Grade Point Distribution')
-    doc.add_picture('reports/figures/subject_performance_comparison.png', width=Inches(6.0))
+    doc.add_picture(fig_subj, width=Inches(6.0))
     doc.add_paragraph().paragraph_format.space_after = Pt(8)
 
 style_heading(doc, '6. Demographic & Gender Comparative Analysis', level=1)

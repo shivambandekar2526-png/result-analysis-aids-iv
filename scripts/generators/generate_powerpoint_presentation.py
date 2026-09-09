@@ -1,13 +1,13 @@
 """
-scripts/generate_powerpoint_presentation.py
+scripts/generators/generate_powerpoint_presentation.py
 
 Generates a publication-quality 20-slide executive PowerPoint presentation
-synthesizing the complete Exploratory Data Analysis from eda_complete.ipynb,
+synthesizing the complete Exploratory Data Analysis from 01_exploratory_data_analysis.ipynb,
 the K-Means clustering pipeline (V2 competency-based and V1), and high-resolution figures.
 
 Deck format: 16:9 Widescreen (13.333" x 7.5")
 Design System: Executive Tech / Academic Analytics
-Target Output: reports/AI_DS_SEM4_Academic_Result_Analysis_Presentation.pptx
+Target Output: deliverables/AI_DS_Sem4_Comprehensive_Analysis_Deck.pptx
 """
 
 import os
@@ -54,6 +54,26 @@ FONT_BODY = "Segoe UI"
 # -----------------------------------------------------------------------------
 # HELPER FUNCTIONS
 # -----------------------------------------------------------------------------
+def resolve_figure_path(rel_path_or_filename: str) -> str:
+    """Resolve figure path across refactored subdirectories in reports/figures/."""
+    if not rel_path_or_filename:
+        return ""
+    if os.path.exists(rel_path_or_filename):
+        return rel_path_or_filename
+    base = os.path.basename(rel_path_or_filename)
+    candidates = [
+        os.path.join("reports", "figures", "eda", base),
+        os.path.join("reports", "figures", "eda", "extracted", base),
+        os.path.join("reports", "figures", "clustering_v1", base),
+        os.path.join("reports", "figures", "clustering_v2", base),
+        os.path.join("reports", "figures", base),
+        os.path.join("reports", "figures", "extracted_eda", base),
+    ]
+    for c in candidates:
+        if os.path.exists(c):
+            return c
+    return rel_path_or_filename
+
 def set_slide_background(slide, color):
     """Set solid color background for slide."""
     background = slide.background
@@ -322,7 +342,7 @@ class PresentationBuilder:
 
         # Right Container: Embedded Figure (Result breakdown)
         add_card(slide, Inches(6.76), Inches(3.45), Inches(5.75), Inches(3.35))
-        fig_path = "reports/figures/result_breakdown.png"
+        fig_path = resolve_figure_path("reports/figures/eda/result_breakdown.png")
         if os.path.exists(fig_path):
             slide.shapes.add_picture(fig_path, Inches(6.9), Inches(3.55), width=Inches(5.47), height=Inches(3.15))
 
@@ -454,9 +474,9 @@ class PresentationBuilder:
                    "Granular examination of successful students, single-subject backlogs, and multi-subject failure clusters")
 
         add_card(slide, Inches(0.8), Inches(1.7), Inches(6.0), Inches(5.0))
-        fig_path = "reports/figures/extracted_eda/eda_cell_46.png"
+        fig_path = resolve_figure_path("reports/figures/eda/extracted/eda_cell_46.png")
         if not os.path.exists(fig_path):
-            fig_path = "reports/figures/result_breakdown.png"
+            fig_path = resolve_figure_path("reports/figures/eda/result_breakdown.png")
         if os.path.exists(fig_path):
             slide.shapes.add_picture(fig_path, Inches(0.95), Inches(1.85), width=Inches(5.7), height=Inches(4.7))
 
@@ -536,15 +556,15 @@ class PresentationBuilder:
 
         # Left: Percentage Distribution
         add_card(slide, Inches(0.8), top_pos, card_w, card_h)
-        fig_pct = "reports/figures/extracted_eda/eda_cell_35.png"
+        fig_pct = resolve_figure_path("reports/figures/eda/extracted/eda_cell_35.png")
         if os.path.exists(fig_pct):
             slide.shapes.add_picture(fig_pct, Inches(0.9), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
         # Right: SGPI Distribution
         add_card(slide, Inches(6.76), top_pos, card_w, card_h)
-        fig_sgpi = "reports/figures/sgpa_distribution.png"
+        fig_sgpi = resolve_figure_path("reports/figures/eda/sgpa_distribution.png")
         if not os.path.exists(fig_sgpi):
-            fig_sgpi = "reports/figures/extracted_eda/eda_cell_37.png"
+            fig_sgpi = resolve_figure_path("reports/figures/eda/extracted/eda_cell_37.png")
         if os.path.exists(fig_sgpi):
             slide.shapes.add_picture(fig_sgpi, Inches(6.86), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
@@ -679,9 +699,9 @@ class PresentationBuilder:
                    "Course-by-course mean marks, pass percentages, and quantitative identification of curriculum bottlenecks")
 
         add_card(slide, Inches(0.8), Inches(1.7), Inches(5.9), Inches(5.0))
-        fig_subj = "reports/figures/subject_performance_comparison.png"
+        fig_subj = resolve_figure_path("reports/figures/eda/subject_performance_comparison.png")
         if not os.path.exists(fig_subj):
-            fig_subj = "reports/figures/extracted_eda/eda_cell_55.png"
+            fig_subj = resolve_figure_path("reports/figures/eda/extracted/eda_cell_55.png")
         if os.path.exists(fig_subj):
             slide.shapes.add_picture(fig_subj, Inches(0.9), Inches(1.85), width=Inches(5.7), height=Inches(4.7))
 
@@ -745,12 +765,12 @@ class PresentationBuilder:
         top_pos = Inches(1.7)
 
         add_card(slide, Inches(0.8), top_pos, card_w, card_h)
-        fig_g1 = "reports/figures/extracted_eda/eda_cell_75.png"
+        fig_g1 = resolve_figure_path("reports/figures/eda/extracted/eda_cell_75.png")
         if os.path.exists(fig_g1):
             slide.shapes.add_picture(fig_g1, Inches(0.9), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
         add_card(slide, Inches(6.76), top_pos, card_w, card_h)
-        fig_g2 = "reports/figures/extracted_eda/eda_cell_72.png"
+        fig_g2 = resolve_figure_path("reports/figures/eda/extracted/eda_cell_72.png")
         if os.path.exists(fig_g2):
             slide.shapes.add_picture(fig_g2, Inches(6.86), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
@@ -797,9 +817,9 @@ class PresentationBuilder:
                    "Empirical evidence of a 13.26 percentage point gap between high laboratory scores and written theory struggles")
 
         add_card(slide, Inches(0.8), Inches(1.7), Inches(5.9), Inches(5.0))
-        fig_tvl = "reports/figures/extracted_eda/eda_cell_94.png"
+        fig_tvl = resolve_figure_path("reports/figures/eda/extracted/eda_cell_94.png")
         if not os.path.exists(fig_tvl):
-            fig_tvl = "reports/figures/kmeans_04_theory_vs_lab_scatter.png"
+            fig_tvl = resolve_figure_path("reports/figures/clustering_v1/kmeans_04_theory_vs_lab_scatter.png")
         if os.path.exists(fig_tvl):
             slide.shapes.add_picture(fig_tvl, Inches(0.9), Inches(1.85), width=Inches(5.7), height=Inches(4.7))
 
@@ -858,9 +878,9 @@ class PresentationBuilder:
                    "Pearson correlation matrix quantifying which foundational subjects most heavily dictate overall academic success")
 
         add_card(slide, Inches(0.8), Inches(1.7), Inches(5.9), Inches(5.0))
-        fig_corr = "reports/figures/extracted_eda/eda_cell_63.png"
+        fig_corr = resolve_figure_path("reports/figures/eda/extracted/eda_cell_63.png")
         if not os.path.exists(fig_corr):
-            fig_corr = "reports/figures/kmeans_08_correlation_heatmap.png"
+            fig_corr = resolve_figure_path("reports/figures/clustering_v1/kmeans_08_correlation_heatmap.png")
         if os.path.exists(fig_corr):
             slide.shapes.add_picture(fig_corr, Inches(0.9), Inches(1.85), width=Inches(5.7), height=Inches(4.7))
 
@@ -927,12 +947,12 @@ class PresentationBuilder:
         top_pos = Inches(1.7)
 
         add_card(slide, Inches(0.8), top_pos, card_w, card_h)
-        fig_gen1 = "reports/figures/extracted_eda/eda_cell_22.png"
+        fig_gen1 = resolve_figure_path("reports/figures/eda/extracted/eda_cell_22.png")
         if os.path.exists(fig_gen1):
             slide.shapes.add_picture(fig_gen1, Inches(0.9), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
         add_card(slide, Inches(6.76), top_pos, card_w, card_h)
-        fig_gen2 = "reports/figures/extracted_eda/eda_cell_98.png"
+        fig_gen2 = resolve_figure_path("reports/figures/eda/extracted/eda_cell_98.png")
         if os.path.exists(fig_gen2):
             slide.shapes.add_picture(fig_gen2, Inches(6.86), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
@@ -1043,16 +1063,16 @@ class PresentationBuilder:
         top_pos = Inches(1.7)
 
         add_card(slide, Inches(0.8), top_pos, card_w, card_h)
-        fig_elb = "reports/figures/clustering_v2_elbow.png"
+        fig_elb = resolve_figure_path("reports/figures/clustering_v2/clustering_v2_elbow.png")
         if not os.path.exists(fig_elb):
-            fig_elb = "reports/figures/kmeans_01_elbow_method.png"
+            fig_elb = resolve_figure_path("reports/figures/clustering_v1/kmeans_01_elbow_method.png")
         if os.path.exists(fig_elb):
             slide.shapes.add_picture(fig_elb, Inches(0.9), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
         add_card(slide, Inches(6.76), top_pos, card_w, card_h)
-        fig_sil = "reports/figures/clustering_v2_silhouette.png"
+        fig_sil = resolve_figure_path("reports/figures/clustering_v2/clustering_v2_silhouette.png")
         if not os.path.exists(fig_sil):
-            fig_sil = "reports/figures/kmeans_02_silhouette_analysis.png"
+            fig_sil = resolve_figure_path("reports/figures/clustering_v1/kmeans_02_silhouette_analysis.png")
         if os.path.exists(fig_sil):
             slide.shapes.add_picture(fig_sil, Inches(6.86), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
@@ -1099,9 +1119,9 @@ class PresentationBuilder:
                    "Projecting 17 high-dimensional competency features into 2 principal axes to inspect cluster boundary separation")
 
         add_card(slide, Inches(0.8), Inches(1.7), Inches(6.0), Inches(5.0))
-        fig_pca = "reports/figures/clustering_v2_pca.png"
+        fig_pca = resolve_figure_path("reports/figures/clustering_v2/clustering_v2_pca.png")
         if not os.path.exists(fig_pca):
-            fig_pca = "reports/figures/kmeans_03_pca_2d_projection.png"
+            fig_pca = resolve_figure_path("reports/figures/clustering_v1/kmeans_03_pca_2d_projection.png")
         if os.path.exists(fig_pca):
             slide.shapes.add_picture(fig_pca, Inches(0.95), Inches(1.85), width=Inches(5.7), height=Inches(4.7))
 
@@ -1239,12 +1259,12 @@ class PresentationBuilder:
         top_pos = Inches(1.7)
 
         add_card(slide, Inches(0.8), top_pos, card_w, card_h)
-        fig_rad = "reports/figures/clustering_v2_radar.png"
+        fig_rad = resolve_figure_path("reports/figures/clustering_v2/clustering_v2_radar.png")
         if os.path.exists(fig_rad):
             slide.shapes.add_picture(fig_rad, Inches(0.9), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
         add_card(slide, Inches(6.76), top_pos, card_w, card_h)
-        fig_prof = "reports/figures/kmeans_05_cluster_feature_profiles.png"
+        fig_prof = resolve_figure_path("reports/figures/clustering_v1/kmeans_05_cluster_feature_profiles.png")
         if os.path.exists(fig_prof):
             slide.shapes.add_picture(fig_prof, Inches(6.86), top_pos + Inches(0.1), width=Inches(5.55), height=Inches(3.4))
 
@@ -1291,7 +1311,7 @@ class PresentationBuilder:
                    "High-resolution integrated analytical overview synthesizing cluster counts, SGPI spreads, theory-lab scatters, and PCA")
 
         add_card(slide, Inches(0.8), Inches(1.7), Inches(11.733), Inches(5.1))
-        fig_dash = "reports/figures/kmeans_student_personas_dashboard.png"
+        fig_dash = resolve_figure_path("reports/figures/clustering_v1/kmeans_student_personas_dashboard.png")
         if os.path.exists(fig_dash):
             slide.shapes.add_picture(fig_dash, Inches(0.95), Inches(1.85), width=Inches(11.433), height=Inches(4.75))
 
@@ -1535,7 +1555,7 @@ class PresentationBuilder:
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
     root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    output_pptx = os.path.join(root_dir, "deliverables", "AI_DS_SEM4_Academic_Result_Analysis_Presentation.pptx")
+    output_pptx = os.path.join(root_dir, "deliverables", "AI_DS_Sem4_Comprehensive_Analysis_Deck.pptx")
     os.makedirs(os.path.dirname(output_pptx), exist_ok=True)
     builder = PresentationBuilder(output_pptx)
     builder.build_deck()
