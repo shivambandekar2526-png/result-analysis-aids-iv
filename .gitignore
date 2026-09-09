@@ -42,6 +42,10 @@ ENV/
 # Ephemeral scratch & cache
 scratch/
 data/cache/ocr_cache/
+.build/
+.chart-data-*/
+.codex-finalizer/
+node_modules/
 
 # IDE / Editor files
 .idea/

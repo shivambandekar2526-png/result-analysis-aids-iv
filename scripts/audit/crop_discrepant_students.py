@@ -1,13 +1,15 @@
-﻿import pymupdf, json, os, re, sys
+from pathlib import Path
+import pymupdf, json, os, re, sys
 from PIL import Image
 import pandas as pd
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-doc = pymupdf.open('data/raw/AI&DS_SEM4_RESULTS.pdf')
-os.makedirs('scratch/audit_crops', exist_ok=True)
+ROOT = Path(__file__).resolve().parents[2]
+doc = pymupdf.open(ROOT / 'data' / 'raw' / 'AI&DS_SEM4_RESULTS.pdf')
+os.makedirs(ROOT / 'scratch' / 'audit_crops', exist_ok=True)
 
-df = pd.read_csv('data/processed/AI_DS_SEM4_MASTER_RESULTS.csv')
+df = pd.read_csv(ROOT / 'data' / 'processed' / 'AI_DS_SEM4_MASTER_RESULTS.csv')
 
 # Let's crop all students who have discrepancies
 discrepant_sids = [
@@ -18,7 +20,7 @@ discrepant_sids = [
 ]
 
 for p_idx in range(len(doc)):
-    fn = f'data/cache/ocr_cache/page_{p_idx:03d}.json'
+    fn = ROOT / 'data' / 'cache' / 'ocr_cache' / f'page_{p_idx:03d}.json'
     if not os.path.exists(fn):
         continue
     with open(fn, 'r', encoding='utf-8') as f:

@@ -1,4 +1,4 @@
-﻿import os, sys
+import os, sys
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, KFold, cross_val_score
@@ -12,12 +12,13 @@ from sklearn.base import clone
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+# Resolve repo root and data path
+_BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.join(_BASE_DIR, "src"))
+
 def run_regression_pipeline():
-    # Load dataset
-    data_path = 'data/processed/AI_DS_SEM4_MASTER_RESULTS.csv'
-    if not os.path.exists(data_path):
-        data_path = 'AI_DS_SEM4_MASTER_RESULTS.csv'
-        
+    # Load dataset from processed data directory
+    data_path = os.path.join(_BASE_DIR, "data", "processed", "AI_DS_SEM4_MASTER_RESULTS.csv")
     df = pd.read_csv(data_path)
     
     # Internal Continuous Assessment Features (Available before External University Exams)

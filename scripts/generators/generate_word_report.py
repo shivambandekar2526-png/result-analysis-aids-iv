@@ -1,4 +1,4 @@
-﻿import os
+import os
 import pandas as pd
 import numpy as np
 from docx import Document
@@ -27,7 +27,9 @@ def style_heading(doc, text, level):
         run.bold = True
     return h
 
-df = pd.read_csv('data/processed/AI_DS_SEM4_MASTER_RESULTS.csv')
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+data_path = os.path.join(ROOT_DIR, "data", "processed", "AI_DS_SEM4_MASTER_RESULTS.csv")
+df = pd.read_csv(data_path)
 doc = Document()
 
 for section in doc.sections:
@@ -293,12 +295,14 @@ foot_run.font.size = Pt(8.5)
 foot_run.font.italic = True
 foot_run.font.color.rgb = RGBColor(150, 150, 150)
 
-os.makedirs('analysis_documentation', exist_ok=True)
-os.makedirs('reports/documentation', exist_ok=True)
+deliverables_dir = os.path.join(ROOT_DIR, 'deliverables')
+reports_doc_dir = os.path.join(ROOT_DIR, 'reports', 'documentation')
+os.makedirs(deliverables_dir, exist_ok=True)
+os.makedirs(reports_doc_dir, exist_ok=True)
 
-path1 = 'analysis_documentation/Academic_Result_Analysis_Report.docx'
-path2 = 'reports/documentation/Academic_Result_Analysis_Report.docx'
+path_deliverables = os.path.join(deliverables_dir, 'Academic_Result_Analysis_Report.docx')
+path_reports = os.path.join(reports_doc_dir, 'Academic_Result_Analysis_Report.docx')
 
-doc.save(path1)
-doc.save(path2)
-print('Report generation complete!')
+doc.save(path_deliverables)
+doc.save(path_reports)
+print(f'Report generation complete! Saved to {path_deliverables} and {path_reports}')

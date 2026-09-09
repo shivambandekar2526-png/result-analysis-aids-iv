@@ -10,6 +10,7 @@ from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, classi
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from ml.feature_engineering import load_and_engineer_features
 from ml.clustering import run_kmeans_clustering
+from ml.clustering_v2 import run_clustering_v2
 
 def run_ml_experiments():
     df = load_and_engineer_features()
@@ -60,9 +61,19 @@ def run_ml_experiments():
     for feat, imp in importances.head(5).items():
         print(f"  - {feat:20s}: {imp*100:.2f}% importance")
         
-    # 3. K-Means Student Segmentation & Visual Analytics
+    # 3. K-Means Student Segmentation & Visual Analytics (Baseline V1)
     print("\n")
+    print("=" * 80)
+    print("=== 3. K-MEANS STUDENT SEGMENTATION (BASELINE V1) ===")
+    print("=" * 80)
     run_kmeans_clustering()
+
+    # 4. K-Means Student Competency Stratification (V2)
+    print("\n")
+    print("=" * 80)
+    print("=== 4. K-MEANS STUDENT COMPETENCY STRATIFICATION (V2) ===")
+    print("=" * 80)
+    run_clustering_v2()
 
 if __name__ == "__main__":
     run_ml_experiments()

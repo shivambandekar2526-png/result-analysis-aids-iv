@@ -1,11 +1,13 @@
-﻿import json, re, sys, os
+from pathlib import Path
+import json, re, sys, os
 import pandas as pd
 import numpy as np
 import pymupdf
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-df = pd.read_csv('data/processed/AI_DS_SEM4_MASTER_RESULTS.csv')
+ROOT = Path(__file__).resolve().parents[2]
+df = pd.read_csv(ROOT / 'data' / 'processed' / 'AI_DS_SEM4_MASTER_RESULTS.csv')
 print(f"Loaded master CSV with {len(df)} rows and {len(df.columns)} columns.")
 
 # Subject Catalog Definition

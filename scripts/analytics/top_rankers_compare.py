@@ -1,6 +1,8 @@
-﻿import pandas as pd
+from pathlib import Path
+import pandas as pd
 
-df = pd.read_csv('data/processed/AI_DS_SEM4_MASTER_RESULTS.csv')
+ROOT = Path(__file__).resolve().parents[2]
+df = pd.read_csv(ROOT / 'data' / 'processed' / 'AI_DS_SEM4_MASTER_RESULTS.csv')
 passed_df = df[df['remark'] == 'PASS'].sort_values(by=['sgpi', 'overall_total'], ascending=[False, False]).reset_index(drop=True)
 passed_df['rank'] = passed_df.index + 1
 

@@ -1,7 +1,9 @@
-﻿import json, sys
+from pathlib import Path
+import json, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-with open('data/cache/ocr_cache/page_001.json', 'r', encoding='utf-8') as f:
+ROOT = Path(__file__).resolve().parents[2]
+with open(ROOT / 'data' / 'cache' / 'ocr_cache' / 'page_001.json', 'r', encoding='utf-8') as f:
     d = json.load(f)
 
 for b in d['boxes']:

@@ -1,7 +1,9 @@
-﻿import pandas as pd
+from pathlib import Path
+import pandas as pd
 import numpy as np
 
-df = pd.read_csv('data/processed/AI_DS_SEM4_MASTER_RESULTS.csv')
+ROOT = Path(__file__).resolve().parents[2]
+df = pd.read_csv(ROOT / 'data' / 'processed' / 'AI_DS_SEM4_MASTER_RESULTS.csv')
 passed_df = df[df['remark'] == 'PASS']
 
 subjects = [

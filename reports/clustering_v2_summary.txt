@@ -1,0 +1,157 @@
+===============================================================================================
+STUDENT ACADEMIC CLUSTERING ANALYSIS -- Semester IV AI & Data Science
+Independent Implementation V2 (Competency-Based Clustering)
+===============================================================================================
+Source Dataset    : AI_DS_SEM4_MASTER_RESULTS.csv
+Total Students    : 88
+Features Used     : 17 (Theory, Labs, Coursework, Consistency, Ext/Int Gap)
+Total Clusters    : 4
+Silhouette Score  : 0.2471
+
+-----------------------------------------------------------------------------------------------
+CLUSTER 0: High Achievers (Consistent Top Performers)
+-----------------------------------------------------------------------------------------------
+  Students Count : 33 (37.5%)
+  Percentage     : Mean = 75.86% (Range: 70.84% to 85.55%)
+  Result Split   : 31 Successful, 2 with KT/Absent
+  Theory Avg     : 73.2%
+  Practical Avg  : 80.5%
+  Coursework Avg : 81.8%
+  Consistency    : Subject StdDev = 9.0 (lower = more balanced)
+  Ext-Int Gap    : -7.3 pp
+
+  Seat No      | Student Name                        | Gender | Percentage | SGPI   | Result        
+  -------------+-------------------------------------+--------+------------+--------+---------------
+  101410074    | SHIVAM VILAS BANDEKAR               | MALE   |     85.55% |   9.13 | SUCCESSFUL    
+  101410932    | SHRAVANI VISHWAS MANE               | FEMALE |     83.74% |   8.87 | SUCCESSFUL    
+  101410070    | SAMIKSHA RAJENDRA BODAKE            | FEMALE |     80.90% |   8.74 | SUCCESSFUL    
+  101410052    | NAIK ARYAN UDAY                     | MALE   |     79.87% |   8.65 | SUCCESSFUL    
+  101410024    | ADINATH SOMNATH JAGTAP              | MALE   |     79.48% |   8.52 | SUCCESSFUL    
+  101410939    | MANGILAL SHRAVAN MALVIYA            | MALE   |     79.23% |   8.65 | SUCCESSFUL    
+  101410084    | TEJAS JITENDRA SAWANT               | MALE   |     79.10% |   8.57 | SUCCESSFUL    
+  101410061    | PRASAD KISAN BHAJNAWALE             | MALE   |     78.71% |   8.70 | SUCCESSFUL    
+  101410049    | MAHANGADE OM VIJAY                  | MALE   |     78.32% |   8.35 | SUCCESSFUL    
+  101410086    | UNNATI DINESH CHAVAN                | FEMALE |     78.19% |   8.39 | SUCCESSFUL    
+  101410059    | PRAJWAL ASHOK ZOLAGE                | MALE   |     77.68% |   8.22 | SUCCESSFUL    
+  101410057    | PIYUSH HARESH KOLI                  | MALE   |     77.42% |   8.30 | SUCCESSFUL    
+  101410075    | SHRAVANI HANSRAJ PATIL              | FEMALE |     76.65% |   8.30 | SUCCESSFUL    
+  101410078    | SHRUNJAL PRADEEP PATIL              | FEMALE |     76.39% |   8.09 | SUCCESSFUL    
+  101410931    | NIKITA SANTOSH MADANE               | FEMALE |     76.39% |   0.00 | UNSUCCESSFUL  
+  101410030    | BHOJANE SAISURESH                   | FEMALE |     76.13% |   7.83 | SUCCESSFUL    
+  101410069    | SALUNKHE DARSHAN DEEPAK             | MALE   |     75.61% |   8.13 | SUCCESSFUL    
+  101410927    | JETITHOR SRUSHTI VIJAYKUMAR         | FEMALE |     75.48% |   8.00 | SUCCESSFUL    
+  101410046    | KAMBLE SARTHAK PRAVIN               | MALE   |     75.48% |   8.17 | SUCCESSFUL    
+  101410047    | KRUSHNA VILAS BORHADE               | MALE   |     75.10% |   8.30 | SUCCESSFUL    
+  101410040    | DURUGKAR ASMITA AMIT                | FEMALE |     74.58% |   8.13 | SUCCESSFUL    
+  101410067    | SAHIL SUBHASH KAVANKAR              | MALE   |     74.06% |   8.26 | SUCCESSFUL    
+  101410071    | SARTHAK SUNIL HUNDARE               | MALE   |     73.55% |   7.96 | SUCCESSFUL    
+  101410076    | SHREYA MAHADEO NALAVADE             | FEMALE |     73.03% |   7.78 | SUCCESSFUL    
+  101410048    | LODHI BHUPESH MAHENDRA              | MALE   |     72.90% |   7.91 | SUCCESSFUL    
+  101410034    | CHAVAN RUDRA MILIND                 | MALE   |     72.00% |   7.65 | SUCCESSFUL    
+  101410077    | SHRIYA NILESH DEO                   | FEMALE |     71.87% |   7.65 | SUCCESSFUL    
+  101410023    | ACHARI MOHIT PRABHAKARAN            | MALE   |     71.35% |   7.78 | SUCCESSFUL    
+  101410033    | CHAUDHARI KRUSHNA PANDURANG         | MALE   |     71.10% |   7.78 | SUCCESSFUL    
+  101410022    | AARADHYA VISHAL SHINDE              | MALE   |     70.84% |   0.00 | UNSUCCESSFUL  
+  101410041    | GAIKWAD SOHAM YADAV                 | MALE   |     70.84% |   7.43 | SUCCESSFUL    
+  101410031    | BOHRA RITHVIK SATISH                | MALE   |     70.84% |   7.74 | SUCCESSFUL    
+  101410942    | PREETI SANJEEV SINGH                | FEMALE |     70.84% |   7.74 | SUCCESSFUL    
+
+-----------------------------------------------------------------------------------------------
+CLUSTER 1: Above Average / Solid Performers
+-----------------------------------------------------------------------------------------------
+  Students Count : 34 (38.6%)
+  Percentage     : Mean = 64.08% (Range: 55.35% to 69.29%)
+  Result Split   : 29 Successful, 5 with KT/Absent
+  Theory Avg     : 58.4%
+  Practical Avg  : 73.6%
+  Coursework Avg : 74.7%
+  Consistency    : Subject StdDev = 12.5 (lower = more balanced)
+  Ext-Int Gap    : -7.0 pp
+
+  Seat No      | Student Name                        | Gender | Percentage | SGPI   | Result        
+  -------------+-------------------------------------+--------+------------+--------+---------------
+  101410065    | RASHI SANTOSH KANK                  | FEMALE |     69.29% |   7.39 | SUCCESSFUL    
+  101410060    | PRANAV GANESH MUJAGE                | MALE   |     69.16% |   7.17 | SUCCESSFUL    
+  101410072    | SHARVIL PRASHANT GHARAT             | MALE   |     69.16% |   7.35 | SUCCESSFUL    
+  101410062    | PRUTHVEESH PRASHANT GHARAL          | MALE   |     68.90% |   7.35 | SUCCESSFUL    
+  101410933    | AMEYA SURYAKANT GUDHEKAR            | MALE   |     68.90% |   7.30 | SUCCESSFUL    
+  101410082    | SURYAKANT ANIL KAMBLE               | MALE   |     68.77% |   7.52 | SUCCESSFUL    
+  101410941    | SAKSHI PRAMOD RANE                  | FEMALE |     68.77% |   7.43 | SUCCESSFUL    
+  101410051    | MOHITE SHREYA ANANDRAO              | FEMALE |     68.39% |   7.39 | SUCCESSFUL    
+  101410073    | SHINDE PRATHAM DILIP                | MALE   |     68.00% |   7.17 | SUCCESSFUL    
+  101410088    | YASH SANDEEP MOHITE                 | MALE   |     67.74% |   7.43 | SUCCESSFUL    
+  101410029    | AYUSH BALIRAM PAWAR                 | MALE   |     66.97% |   7.17 | SUCCESSFUL    
+  101410035    | DANI SHARVIKA AJAY                  | FEMALE |     66.84% |   7.13 | SUCCESSFUL    
+  101410055    | PADWAL ARYA SHASHIKANT              | FEMALE |     66.71% |   7.26 | SUCCESSFUL    
+  101410026    | ANVISHA VILAS ALKUTE                | FEMALE |     66.58% |   7.22 | SUCCESSFUL    
+  101410087    | VIRAJ VIKRAM KAKADE                 | MALE   |     66.58% |   7.00 | SUCCESSFUL    
+  101410032    | CHAITANYA PRASHANT WANKHEDE         | MALE   |     65.16% |   7.00 | SUCCESSFUL    
+  101410054    | NUPUR LALIT KEN                     | FEMALE |     64.90% |   7.13 | SUCCESSFUL    
+  101410038    | DIVYA VIKRAM HANDA                  | FEMALE |     64.65% |   0.00 | UNSUCCESSFUL  
+  101410058    | POTPHODE ASHISH CHANDRASHEKHAR      | MALE   |     64.26% |   6.78 | SUCCESSFUL    
+  101410050    | MAYURESH ASHWIN LALINGKAR           | MALE   |     64.26% |   6.57 | SUCCESSFUL    
+  101410039    | DIXIT VED SACHIN                    | MALE   |     63.61% |   6.52 | SUCCESSFUL    
+  101410045    | KALE VAISHWIK PRAVIN                | MALE   |     63.35% |   6.43 | SUCCESSFUL    
+  101410056    | PATIL NIDHI GURUNATH                | FEMALE |     63.35% |   6.61 | SUCCESSFUL    
+  101410027    | ARYAN JAGDISH BHOSALE               | MALE   |     63.35% |   6.57 | SUCCESSFUL    
+  101410053    | NIKISHA UMASHANKAR YADAV            | FEMALE |     62.45% |   0.00 | UNSUCCESSFUL  
+  101410068    | SALONI SATISH PEDNEKAR              | FEMALE |     62.06% |   6.65 | SUCCESSFUL    
+  101410066    | RAWAL HARSH CHETAN                  | MALE   |     59.61% |   6.26 | SUCCESSFUL    
+  101410025    | ANURAG SANTOSH AMALE                | MALE   |     58.71% |   5.96 | SUCCESSFUL    
+  101410044    | JADHAV RUTUJA SANJAY                | FEMALE |     58.45% |   0.00 | UNSUCCESSFUL  
+  101410037    | DARSHITA SHAM PEDNEKAR              | FEMALE |     56.39% |   0.00 | UNSUCCESSFUL  
+  101410938    | ARYAN PRADEEP TALEKAR               | MALE   |     56.39% |   5.65 | SUCCESSFUL    
+  101410064    | RAJ VIJAY PATIL                     | MALE   |     56.26% |   0.00 | UNSUCCESSFUL  
+  101410935    | MORE RAJ VINOD                      | MALE   |     55.48% |   5.78 | SUCCESSFUL    
+  101410949    | ASHISH DINKAR THOMBARE              | MALE   |     55.35% |   5.48 | SUCCESSFUL    
+
+-----------------------------------------------------------------------------------------------
+CLUSTER 2: Developing / Needs Academic Support
+-----------------------------------------------------------------------------------------------
+  Students Count : 13 (14.8%)
+  Percentage     : Mean = 47.01% (Range: 31.23% to 54.06%)
+  Result Split   : 0 Successful, 13 with KT/Absent
+  Theory Avg     : 39.5%
+  Practical Avg  : 64.3%
+  Coursework Avg : 57.0%
+  Consistency    : Subject StdDev = 18.7 (lower = more balanced)
+  Ext-Int Gap    : -5.1 pp
+
+  Seat No      | Student Name                        | Gender | Percentage | SGPI   | Result        
+  -------------+-------------------------------------+--------+------------+--------+---------------
+  101410079    | SNEHA ANIL KARANDIKAR               | FEMALE |     54.06% |   0.00 | UNSUCCESSFUL  
+  101410063    | RAHUL SUBHASH PAWAR                 | MALE   |     51.61% |   0.00 | UNSUCCESSFUL  
+  101410945    | SWARAJ PATIL                        | MALE   |     50.32% |   0.00 | UNSUCCESSFUL  
+  101410042    | GUNDLAPALLI ANJALI VENUGOPAL        | FEMALE |     49.94% |   0.00 | UNSUCCESSFUL  
+  101410028    | ATHARVA MAHESH SHELAR               | MALE   |     49.81% |   0.00 | UNSUCCESSFUL  
+  101410085    | TEJAS SUNIL BHANGALE                | MALE   |     49.29% |   0.00 | UNSUCCESSFUL  
+  101410036    | DANISH SARFARAJ TADAVI              | MALE   |     48.77% |   0.00 | UNSUCCESSFUL  
+  101410944    | AVISHKAR KAMBLE                     | MALE   |     48.39% |   0.00 | UNSUCCESSFUL  
+  101410928    | GAIKWAD YASHVARDHAN SANJAY          | MALE   |     47.48% |   0.00 | UNSUCCESSFUL  
+  101410081    | SUMIT RAMDAS MUNDHE                 | MALE   |     44.52% |   0.00 | UNSUCCESSFUL  
+  101410934    | AAYUSH SANTOSH MORE                 | MALE   |     43.23% |   0.00 | UNSUCCESSFUL  
+  101410948    | SIDDHESH SANJAY PARDHI              | MALE   |     42.45% |   0.00 | UNSUCCESSFUL  
+  101410953    | PRANAY PRAMOD MORE                  | MALE   |     31.23% |   0.00 | UNSUCCESSFUL  
+
+-----------------------------------------------------------------------------------------------
+CLUSTER 3: Critical Intervention (Severe Underperformance / Absent)
+-----------------------------------------------------------------------------------------------
+  Students Count : 8 (9.1%)
+  Percentage     : Mean = 25.19% (Range: 1.29% to 35.74%)
+  Result Split   : 0 Successful, 8 with KT/Absent
+  Theory Avg     : 31.7%
+  Practical Avg  : 7.9%
+  Coursework Avg : 25.8%
+  Consistency    : Subject StdDev = 18.6 (lower = more balanced)
+  Ext-Int Gap    : -5.2 pp
+
+  Seat No      | Student Name                        | Gender | Percentage | SGPI   | Result        
+  -------------+-------------------------------------+--------+------------+--------+---------------
+  101410946    | SAMARTH SUBHASH SHINDE              | MALE   |     35.74% |   0.00 | UNSUCCESSFUL  
+  101410043    | HARSH LAXMAN PATIL                  | MALE   |     35.35% |   0.00 | UNSUCCESSFUL  
+  101410083    | TANMAY ANKUSH BANGAR                | MALE   |     33.29% |   0.00 | UNSUCCESSFUL  
+  101410947    | DHAVAL MAHENDRA KHADE               | MALE   |     28.13% |   0.00 | UNSUCCESSFUL  
+  101410952    | JAYESH VITTHAL BHOR                 | MALE   |     25.68% |   0.00 | UNSUCCESSFUL  
+  101410954    | SHREYA BHIMRAO KHARMATE             | FEMALE |     22.71% |   0.00 | UNSUCCESSFUL  
+  101410080    | SONAWANE TANMAY DEEPAK              | MALE   |     19.35% |   0.00 | UNSUCCESSFUL  
+  101410926    | RAYHAAN LIYAKAT KALSEKAR            | MALE   |      1.29% |   0.00 | ABSENT        
